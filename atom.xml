@@ -3,8 +3,8 @@
 <!-- Atom feed文档，并声明了其使用的XML命名空间。 -->
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jinjiaojiao.top</id>
-    <title>Jinjiaojiao</title>
-    <subtitle></subtitle>
+    <title>金娇娇</title>
+    <subtitle>去留无意，漫随天外云卷云舒</subtitle>
     <icon>https://jinjiaojiao.top/images/favicon.ico</icon>
     <link href="https://jinjiaojiao.top" />
     <author>
