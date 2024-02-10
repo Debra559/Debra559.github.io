@@ -10,9 +10,65 @@
         </author>
         <description>金同学的个人博客</description>
         <language>zh-CN</language>
-        <pubDate>Wed, 07 Feb 2024 13:26:07 +0800</pubDate>
-        <lastBuildDate>Wed, 07 Feb 2024 13:26:07 +0800</lastBuildDate>
+        <pubDate>Sat, 10 Feb 2024 14:15:33 +0800</pubDate>
+        <lastBuildDate>Sat, 10 Feb 2024 14:15:33 +0800</lastBuildDate>
         <category term="计算机，人工智能，产品，数学建模，算法，网页开发" />
+        <item>
+            <guid isPermalink="true">https://jinjiaojiao.top/2024/02/10/PyTorch%E5%AD%A6%E4%B9%A0%E7%AC%AC%E4%B8%80%E7%AB%A0%E2%80%94%E2%80%94%E7%AE%80%E4%BB%8B%E4%B8%8E%E5%AE%89%E8%A3%85/</guid>
+            <title>PyTorch学习第一章——简介与安装</title>
+            <link>https://jinjiaojiao.top/2024/02/10/PyTorch%E5%AD%A6%E4%B9%A0%E7%AC%AC%E4%B8%80%E7%AB%A0%E2%80%94%E2%80%94%E7%AE%80%E4%BB%8B%E4%B8%8E%E5%AE%89%E8%A3%85/</link>
+            <pubDate>Sat, 10 Feb 2024 14:15:33 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;学习参考项目：&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2ZlbmRvdWFpL1B5VG9yY2hEb2NzL3RyZWUvbWFzdGVy&#34;&gt;https://github.com/fendouai/PyTorchDocs/tree/master&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;处于学习阶段，内容几乎全部上述文档，仅进行归纳整理与加上自己的部分理解，特此声明。&lt;/p&gt;
+&lt;h1 id=&#34;第一章-pytorch之简介与下载&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第一章-pytorch之简介与下载&#34;&gt;#&lt;/a&gt; 第一章 PyTorch 之简介与下载&lt;/h1&gt;
+&lt;h2 id=&#34;pytorch简介&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#pytorch简介&#34;&gt;#&lt;/a&gt; Pytorch 简介&lt;/h2&gt;
+&lt;p&gt;要介绍 &lt;code&gt;PyTorch&lt;/code&gt;  之前，不得不说一下 &lt;code&gt;Torch&lt;/code&gt; 。 &lt;code&gt;Torch&lt;/code&gt;  是一个有大量机器学习算法支持的科学计算框架，是一个与 &lt;code&gt;Numpy&lt;/code&gt;  类似的张量（ &lt;code&gt;Tensor&lt;/code&gt; ）&lt;br /&gt;
+操作库，其特点是特别灵活，但因其采用了小众的编程语言是 &lt;code&gt;Lua&lt;/code&gt; ，所以流行度不高，这也就有了 &lt;code&gt;PyTorch&lt;/code&gt;  的出现。所以其实 &lt;code&gt;Torch&lt;/code&gt;  是&lt;br /&gt;
+ &lt;code&gt;PyTorch&lt;/code&gt;  的前身，它们的底层语言相同，只是使用了不同的上层包装语言&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;PyTorch&lt;/code&gt;  是一个基于 Torch 的 Python 开&lt;strong&gt;源机器学习库&lt;/strong&gt;，用于自然语言处理等应用程序。它主要由 &lt;code&gt;Facebook&lt;/code&gt;  的人工智能小组开发，不仅能够&lt;br /&gt;
+实现强大的 &lt;code&gt;GPU&lt;/code&gt;  加速，同时还支持动态神经网络，这一点是现在很多主流框架如 &lt;code&gt;TensorFlow&lt;/code&gt;  都不支持的。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt; &lt;code&gt;PyTorch&lt;/code&gt;  提供了两个高级功能：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;具有强大的 &lt;code&gt;GPU&lt;/code&gt;  加速的张量计算（如 &lt;code&gt;Numpy&lt;/code&gt; ）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;包含自动求导系统的深度神经网络&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;除了 &lt;code&gt;Facebook&lt;/code&gt;  之外， &lt;code&gt;Twitter&lt;/code&gt; 、 &lt;code&gt;GMU&lt;/code&gt;  和 &lt;code&gt;Salesforce&lt;/code&gt;  等机构都采用了 &lt;code&gt;PyTorch&lt;/code&gt; 。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;TensorFlow&lt;/code&gt;  和 &lt;code&gt;Caffe&lt;/code&gt;  都是&lt;strong&gt;命令式&lt;/strong&gt;的编程语言，而且是&lt;strong&gt;静态&lt;/strong&gt;的，首先必须构建一个神经网络，然后一次又一次使用相同的结构，如果想要改&lt;br /&gt;
+变网络的结构，就必须&lt;strong&gt;从头开始&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;但是对于 &lt;code&gt;PyTorch&lt;/code&gt; ，通过&lt;strong&gt;反向求导&lt;/strong&gt;技术，可以让你零延迟地任意改变神经网络的行为，而且其实现速度快。正是这一灵活性是 &lt;code&gt;PyTorch&lt;/code&gt;  对比 &lt;code&gt;TensorFlow&lt;/code&gt;  的最大优势。&lt;/p&gt;
+&lt;p&gt;另外，PyTorch 的代码对比 TensorFlow 而言，更加简洁直观，底层代码也更容易看懂，这对于使用它的人来说理解底层肯定是一件令人激&lt;br /&gt;
+动的事。&lt;/p&gt;
+&lt;p&gt;所以，总结一下 PyTorch 的优点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;支持 GPU&lt;/li&gt;
+&lt;li&gt;灵活，支持动态神经网络&lt;/li&gt;
+&lt;li&gt;底层代码易于理解&lt;/li&gt;
+&lt;li&gt;命令式体验&lt;/li&gt;
+&lt;li&gt;自定义扩展&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;当然，现今任何一个深度学习框架都有其缺点，PyTorch 也不例外，对比 TensorFlow，其全面性处于劣势，目前 PyTorch 还不支持快速傅里&lt;br /&gt;
+叶、沿维翻转张量和检查无穷与非数值张量；针对移动端、嵌入式部署以及高性能服务器端的部署其性能表现有待提升；其次因为这个框&lt;br /&gt;
+架较新，使得他的社区没有那么强大，在文档方面其 C 库大多数没有文档。&lt;/p&gt;
+&lt;h2 id=&#34;pytorch环境搭建&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#pytorch环境搭建&#34;&gt;#&lt;/a&gt; Pytorch 环境搭建&lt;/h2&gt;
+&lt;h3 id=&#34;1-安装anaconda-35&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-安装anaconda-35&#34;&gt;#&lt;/a&gt; 1. 安装 Anaconda 3.5&lt;/h3&gt;
+&lt;p&gt;Anaconda 是一个用于科学计算的 Python 发行版，支持 Linux、Mac 和 Window 系统，提供了包管理与环境管理的功能，可以很方便地解决 Python 并存、切换，以及各种第三方包安装的问题。&lt;/p&gt;
+&lt;h4 id=&#34;下载&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#下载&#34;&gt;#&lt;/a&gt; 下载：&lt;/h4&gt;
+&lt;p&gt;可以直接从 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuY29udGludXVtLmlvL2Rvd25sb2Fkcw==&#34;&gt;Anaconda 官网&lt;/span&gt;下载，但因为 Anaconda 的服务器在国外，所以下载速度会很慢，这里推荐使用&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9taXJyb3JzLnR1bmEudHNpbmdodWEuZWR1LmNuL2FuYWNvbmRhL2FyY2hpdmUv&#34;&gt;清华的镜像&lt;/span&gt;来下载。选择合适你的版本下载，我这里选择&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9taXJyb3JzLnR1bmEudHNpbmdodWEuZWR1LmNuL2FuYWNvbmRhL2FyY2hpdmUvQW5hY29uZGEzLTUuMS4wLVdpbmRvd3MteDg2XzY0LmV4ZQ==&#34;&gt; Anaconda3-5.1.0-Windows-x86_64.exe&lt;/span&gt;&lt;/p&gt;
+&lt;h4 id=&#34;安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装&#34;&gt;#&lt;/a&gt; 安装：&lt;/h4&gt;
+&lt;p&gt;安装完成后，进行 Anaconda 的环境变量配置，打开控制面板 -&amp;gt; 高级系统设置 -&amp;gt; 环境变量 -&amp;gt; 系统变量找到 Path，点击编辑，加入三个文件夹的存储路径（注意三个路径之间需用分号隔开）&lt;/p&gt;
+&lt;h3 id=&#34;2安装pytorch-torchvision&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2安装pytorch-torchvision&#34;&gt;#&lt;/a&gt; 2. 安装 PyTorch &amp;amp; torchvision&lt;/h3&gt;
+&lt;h4 id=&#34;命令获取&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#命令获取&#34;&gt;#&lt;/a&gt; 命令获取&lt;/h4&gt;
+&lt;p&gt;进入 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9weXRvcmNoLm9yZy8=&#34;&gt;PyTorch 官网&lt;/span&gt;，依次选择你电脑的配置（我这里已经下载了 python3.7），这里提供使用 pip 和 conda 两种环境下安装的步骤截图&lt;/p&gt;
+&lt;p&gt;(1) 使用 pip：windows+pip+python3.7+None&lt;/p&gt;
+&lt;p&gt;(2) 使用 conda：windows+conda+python3.7+None&lt;/p&gt;
+&lt;h5 id=&#34;建议参照官网这里没有拷贝下来&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#建议参照官网这里没有拷贝下来&#34;&gt;#&lt;/a&gt; （建议参照官网）这里没有拷贝下来&lt;/h5&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://jinjiaojiao.top/2024/02/07/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</guid>
             <title>复盘in2vec</title>
