@@ -48,6 +48,7 @@
 &lt;p&gt;输出 i 是预测为第 i 类的置信度&lt;/p&gt;
 &lt;h3 id=&#34;从回归到多类分类均方损失&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#从回归到多类分类均方损失&#34;&gt;#&lt;/a&gt; 从回归到多类分类 —— 均方损失&lt;/h3&gt;
 </content>
+        <category term="跟着李沐学深度学习" scheme="https://jinjiaojiao.top/tags/%E8%B7%9F%E7%9D%80%E6%9D%8E%E6%B2%90%E5%AD%A6%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" />
         <updated>2024-02-13T18:46:58.000Z</updated>
     </entry>
     <entry>
@@ -313,6 +314,7 @@
 &lt;p&gt;&lt;img data-src=&#34;https://pic.imgdb.cn/item/65cbac4c9f345e8d036f8948.png&#34; alt=&#34;image-20240208200237222&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://pic.imgdb.cn/item/65cbac679f345e8d036fcbdc.png&#34; alt=&#34;image-20240208200405438&#34; /&gt;&lt;/p&gt;
 </content>
+        <category term="跟着李沐学深度学习" scheme="https://jinjiaojiao.top/tags/%E8%B7%9F%E7%9D%80%E6%9D%8E%E6%B2%90%E5%AD%A6%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" />
         <updated>2024-02-13T17:39:00.000Z</updated>
     </entry>
     <entry>
@@ -787,6 +789,7 @@ c-16-25.333-24-45-24-59z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/spa
 &lt;p&gt;是 log_softmax 中的对数运算&lt;/p&gt;
 &lt;p&gt;epoch 训练伦次，提高数据利用率&lt;/p&gt;
 </content>
+        <category term="PyTorch学习" scheme="https://jinjiaojiao.top/tags/PyTorch%E5%AD%A6%E4%B9%A0/" />
         <updated>2024-02-11T10:25:18.000Z</updated>
     </entry>
     <entry>
@@ -842,6 +845,7 @@ c-16-25.333-24-45-24-59z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/spa
 &lt;p&gt;(2) 使用 conda：windows+conda+python3.7+None&lt;/p&gt;
 &lt;h5 id=&#34;建议参照官网这里没有拷贝下来&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#建议参照官网这里没有拷贝下来&#34;&gt;#&lt;/a&gt; （建议参照官网）这里没有拷贝下来&lt;/h5&gt;
 </content>
+        <category term="PyTorch学习" scheme="https://jinjiaojiao.top/tags/PyTorch%E5%AD%A6%E4%B9%A0/" />
         <updated>2024-02-10T06:15:33.000Z</updated>
     </entry>
     <entry>
@@ -1198,7 +1202,7 @@ Debian/Ubuntu 系统，需要执行以下命令：&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC80MzQzNTY5NDc=&#34;&gt;https://zhuanlan.zhihu.com/p/434356947&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0Nsb3Vkb3hfL2FydGljbGUvZGV0YWlscy83ODY1MTYzNw==&#34;&gt;https://blog.csdn.net/Cloudox_/article/details/78651637&lt;/span&gt;&lt;/p&gt;
 </content>
-        <category term="AI学习" scheme="https://jinjiaojiao.top/tags/AI%E5%AD%A6%E4%B9%A0/" />
+        <category term="AI复盘" scheme="https://jinjiaojiao.top/tags/AI%E5%A4%8D%E7%9B%98/" />
         <updated>2024-02-07T05:26:07.000Z</updated>
     </entry>
     <entry>
