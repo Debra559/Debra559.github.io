@@ -10,9 +10,47 @@
         </author>
         <description>金同学的个人博客</description>
         <language>zh-CN</language>
-        <pubDate>Wed, 14 Feb 2024 01:39:00 +0800</pubDate>
-        <lastBuildDate>Wed, 14 Feb 2024 01:39:00 +0800</lastBuildDate>
+        <pubDate>Wed, 14 Feb 2024 02:46:58 +0800</pubDate>
+        <lastBuildDate>Wed, 14 Feb 2024 02:46:58 +0800</lastBuildDate>
         <category term="计算机，人工智能，产品，数学建模，算法，网页开发" />
+        <item>
+            <guid isPermalink="true">https://jinjiaojiao.top/2024/02/14/%E5%AD%A6%E4%B9%A0d2l%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0day2%E2%80%94%E2%80%94%E5%9B%9E%E5%BD%92/</guid>
+            <title>学习d2l深度学习day2——回归</title>
+            <link>https://jinjiaojiao.top/2024/02/14/%E5%AD%A6%E4%B9%A0d2l%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0day2%E2%80%94%E2%80%94%E5%9B%9E%E5%BD%92/</link>
+            <pubDate>Wed, 14 Feb 2024 02:46:58 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;线性回归&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#线性回归&#34;&gt;#&lt;/a&gt; 线性回归&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;回归&lt;/strong&gt;&lt;/em&gt;（regression）是能为一个或多个自变量与因变量之间关系建模的一类方法。 在自然科学和社会科学领域，回归经常用来表示输入和输出之间的关系。&lt;/p&gt;
+&lt;p&gt;在机器学习领域中的大多数任务通常都与&lt;em&gt;&lt;strong&gt;预测&lt;/strong&gt;&lt;/em&gt;（prediction）有关。&lt;/p&gt;
+&lt;p&gt;当我们想预测一个数值时，就会涉及到回归问题。 常见的例子包括：预测价格（房屋、股票等）、预测住院时间（针对住院病人等）、 预测需求（零售销量等）。&lt;/p&gt;
+&lt;p&gt;但不是所有的&lt;em&gt;预测&lt;/em&gt;都是回归问题。&lt;/p&gt;
+&lt;p&gt;分类问题的目标是预测数据属于一组类别中的哪一个。&lt;/p&gt;
+&lt;h2 id=&#34;线性回归的基本元素&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#线性回归的基本元素&#34;&gt;#&lt;/a&gt; 线性回归的基本元素&lt;/h2&gt;
+&lt;p&gt;线性回归基于几个简单的假设： 首先，假设自变量 x 和因变量 y 之间的关系是线性的， 即 y 可以表示为 x 中元素的加权和，这里通常允许包含观测值的一些噪声； 其次，我们假设任何噪声都比较正常，如噪声遵循正态分布。&lt;/p&gt;
+&lt;p&gt;为了解释&lt;em&gt;线性回归&lt;/em&gt;，我们举一个实际的例子： 我们希望根据房屋的面积（平方英尺）和房龄（年）来估算房屋价格（美元）。 为了开发一个能预测房价的模型，我们需要收集一个真实的数据集。 这个数据集包括了房屋的销售价格、面积和房龄。 在机器学习的术语中，该数据集称为&lt;em&gt;&lt;strong&gt;训练数据集&lt;/strong&gt;&lt;/em&gt;（training data set） 或&lt;em&gt;&lt;strong&gt;训练集&lt;/strong&gt;&lt;/em&gt;（training set）。 每行数据（比如一次房屋交易相对应的数据）称为&lt;em&gt;样本&lt;/em&gt;（sample）， 也可以称为&lt;em&gt;&lt;strong&gt;数据点&lt;/strong&gt;&lt;/em&gt;（data point）或&lt;em&gt;&lt;strong&gt;数据样本&lt;/strong&gt;&lt;/em&gt;（data instance）。 我们把试图预测的目标（比如预测房屋价格）称为&lt;em&gt;&lt;strong&gt;标签&lt;/strong&gt;&lt;/em&gt;（label）或&lt;em&gt;&lt;strong&gt;目标&lt;/strong&gt;&lt;/em&gt;（target）。 预测所依据的自变量（面积和房龄）称为&lt;em&gt;&lt;strong&gt;特征&lt;/strong&gt;&lt;/em&gt;（feature）或&lt;em&gt;&lt;strong&gt;协变量&lt;/strong&gt;&lt;/em&gt;（covariate）。&lt;/p&gt;
+&lt;p&gt;通常，我们使用 n 来表示数据集中的样本数。 对索引为 i 的样本，其输入表示为&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;katex-display&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34; display=&#34;block&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi mathvariant=&#34;bold&#34;&gt;X&lt;/mi&gt;&lt;mrow&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;/msup&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;msup&gt;&lt;mrow&gt;&lt;mo fence=&#34;true&#34;&gt;[&lt;/mo&gt;&lt;msubsup&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mrow&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;/msubsup&gt;&lt;mo separator=&#34;true&#34;&gt;,&lt;/mo&gt;&lt;msubsup&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mrow&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;/msubsup&gt;&lt;mo fence=&#34;true&#34;&gt;]&lt;/mo&gt;&lt;/mrow&gt;&lt;mi&gt;T&lt;/mi&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\mathbf{X}^{(i)} = \left[ x_1^{(i)}, x_2^{(i)} \right]^T
+&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.938em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathbf&#34;&gt;X&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.938em;&#34;&gt;&lt;span style=&#34;top:-3.113em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mopen mtight&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;mclose mtight&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:2.031251em;vertical-align:-0.65002em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;minner&#34;&gt;&lt;span class=&#34;minner&#34;&gt;&lt;span class=&#34;mopen delimcenter&#34; style=&#34;top:0em;&#34;&gt;&lt;span class=&#34;delimsizing size2&#34;&gt;[&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.0448em;&#34;&gt;&lt;span style=&#34;top:-2.433692em;margin-left:0em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.2198em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mopen mtight&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;mclose mtight&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.266308em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mpunct&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.0448em;&#34;&gt;&lt;span style=&#34;top:-2.433692em;margin-left:0em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.2198em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mopen mtight&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;mclose mtight&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.266308em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose delimcenter&#34; style=&#34;top:0em;&#34;&gt;&lt;span class=&#34;delimsizing size2&#34;&gt;]&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.3812309999999999em;&#34;&gt;&lt;span style=&#34;top:-3.6029em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34; style=&#34;margin-right:0.13889em;&#34;&gt;T&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;， 其对应的标签是 y（i）。&lt;/p&gt;
+&lt;h1 id=&#34;softmax回归&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#softmax回归&#34;&gt;#&lt;/a&gt; Softmax 回归&lt;/h1&gt;
+&lt;h2 id=&#34;回归与分类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#回归与分类&#34;&gt;#&lt;/a&gt; 回归与分类&lt;/h2&gt;
+&lt;h3 id=&#34;回归&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#回归&#34;&gt;#&lt;/a&gt; 回归&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;单连续数值输出&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;自然区间 R&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;跟真实值的区别作为损失&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;分类&lt;/p&gt;
+&lt;p&gt;通常多个输出&lt;/p&gt;
+&lt;p&gt;输出 i 是预测为第 i 类的置信度&lt;/p&gt;
+&lt;h3 id=&#34;从回归到多类分类均方损失&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#从回归到多类分类均方损失&#34;&gt;#&lt;/a&gt; 从回归到多类分类 —— 均方损失&lt;/h3&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://jinjiaojiao.top/2024/02/14/%E5%AD%A6%E4%B9%A0d2l%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0day1%E2%80%94%E2%80%94%E4%BB%8B%E7%BB%8D%E4%B8%8E%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86/</guid>
             <title>学习d2l深度学习day1——介绍与数据处理</title>
@@ -808,9 +846,9 @@ c-16-25.333-24-45-24-59z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/spa
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://jinjiaojiao.top/2024/02/07/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</guid>
+            <guid isPermalink="true">https://jinjiaojiao.top/2024/02/07/CS/course-1/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</guid>
             <title>复盘in2vec</title>
-            <link>https://jinjiaojiao.top/2024/02/07/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</link>
+            <link>https://jinjiaojiao.top/2024/02/07/CS/course-1/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</link>
             <pubDate>Wed, 07 Feb 2024 13:26:07 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;2024-2-7&lt;/p&gt;
 &lt;p&gt;复盘：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL0NWTEFCLVVuaWJvL2lucjJ2ZWM/dGFiPXJlYWRtZS1vdi1maWxl&#34;&gt;https://github.com/CVLAB-Unibo/inr2vec?tab=readme-ov-file&lt;/span&gt;&lt;/p&gt;
