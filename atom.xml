@@ -10,8 +10,29 @@
     <author>
       <name>Debra</name>
     </author>
-    <updated>2024-02-13T18:46:58.000Z</updated>
+    <updated>2024-02-24T05:48:37.000Z</updated>
     <category term="计算机，人工智能，产品，数学建模，算法，网页开发" />
+    <entry>
+        <id>https://jinjiaojiao.top/2024/02/24/%E7%AB%9E%E5%93%81%E5%88%86%E6%9E%90/</id>
+        <title>竞品分析</title>
+        <link rel="alternate" href="https://jinjiaojiao.top/2024/02/24/%E7%AB%9E%E5%93%81%E5%88%86%E6%9E%90/"/>
+        <content type="html"></content>
+        <updated>2024-02-24T05:48:37.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://jinjiaojiao.top/2024/02/24/%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90/</id>
+        <title>需求分析</title>
+        <link rel="alternate" href="https://jinjiaojiao.top/2024/02/24/%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90/"/>
+        <content type="html"></content>
+        <updated>2024-02-24T05:48:14.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://jinjiaojiao.top/2024/02/24/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86%E5%B7%A5%E4%BD%9C%E5%86%85%E5%AE%B9/</id>
+        <title>产品经理工作内容</title>
+        <link rel="alternate" href="https://jinjiaojiao.top/2024/02/24/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86%E5%B7%A5%E4%BD%9C%E5%86%85%E5%AE%B9/"/>
+        <content type="html"></content>
+        <updated>2024-02-24T05:47:59.000Z</updated>
+    </entry>
     <entry>
         <id>https://jinjiaojiao.top/2024/02/14/%E5%AD%A6%E4%B9%A0d2l%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0day2%E2%80%94%E2%80%94%E5%9B%9E%E5%BD%92/</id>
         <title>学习d2l深度学习day2——回归</title>
@@ -30,11 +51,12 @@
 &lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.938em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathbf&#34;&gt;X&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.938em;&#34;&gt;&lt;span style=&#34;top:-3.113em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mopen mtight&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;mclose mtight&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:2.031251em;vertical-align:-0.65002em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;minner&#34;&gt;&lt;span class=&#34;minner&#34;&gt;&lt;span class=&#34;mopen delimcenter&#34; style=&#34;top:0em;&#34;&gt;&lt;span class=&#34;delimsizing size2&#34;&gt;[&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.0448em;&#34;&gt;&lt;span style=&#34;top:-2.433692em;margin-left:0em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.2198em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mopen mtight&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;mclose mtight&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.266308em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mpunct&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.0448em;&#34;&gt;&lt;span style=&#34;top:-2.433692em;margin-left:0em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.2198em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mopen mtight&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;mclose mtight&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.266308em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose delimcenter&#34; style=&#34;top:0em;&#34;&gt;&lt;span class=&#34;delimsizing size2&#34;&gt;]&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.3812309999999999em;&#34;&gt;&lt;span style=&#34;top:-3.6029em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34; style=&#34;margin-right:0.13889em;&#34;&gt;T&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;， 其对应的标签是 y（i）。&lt;/p&gt;
 &lt;h1 id=&#34;softmax回归&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#softmax回归&#34;&gt;#&lt;/a&gt; Softmax 回归&lt;/h1&gt;
+&lt;p&gt;Softmax 实质上是分类&lt;/p&gt;
 &lt;h2 id=&#34;回归与分类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#回归与分类&#34;&gt;#&lt;/a&gt; 回归与分类&lt;/h2&gt;
 &lt;h3 id=&#34;回归&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#回归&#34;&gt;#&lt;/a&gt; 回归&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;单连续数值输出&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;单&lt;/strong&gt;连续数值输出&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;自然区间 R&lt;/p&gt;
@@ -43,11 +65,88 @@
 &lt;p&gt;跟真实值的区别作为损失&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;分类&lt;/p&gt;
-&lt;p&gt;通常多个输出&lt;/p&gt;
-&lt;p&gt;输出 i 是预测为第 i 类的置信度&lt;/p&gt;
+&lt;h3 id=&#34;分类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#分类&#34;&gt;#&lt;/a&gt; 分类&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;通常&lt;strong&gt;多个输出&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;输出 i 是预测为第 i 类的置信度&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&#34;从回归到多类分类均方损失&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#从回归到多类分类均方损失&#34;&gt;#&lt;/a&gt; 从回归到多类分类 —— 均方损失&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5C29758%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20240218211324212.png&#34; alt=&#34;image-20240218211324212&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;最大化 Oi 置信度&lt;/p&gt;
+&lt;p&gt;需要更置信的识别正确类（大余量）&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5C29758%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20240218211654235.png&#34; alt=&#34;image-20240218211654235&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;远远大于其他&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5C29758%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20240218211732178.png&#34; alt=&#34;image-20240218211732178&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5C29758%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20240218211813295.png&#34; alt=&#34;image-20240218211813295&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;导数是我们 softmax 模型分配的概率如（0.1，0.2，0.7）与实际发生的情况（0，0，1）（由独热标签向量表示）之间的差异&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;交叉熵损失函数：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;katex-display&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34; display=&#34;block&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;l&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi mathvariant=&#34;bold&#34;&gt;y&lt;/mi&gt;&lt;mo separator=&#34;true&#34;&gt;,&lt;/mo&gt;&lt;mover accent=&#34;true&#34;&gt;&lt;mi mathvariant=&#34;bold&#34;&gt;y&lt;/mi&gt;&lt;mo&gt;^&lt;/mo&gt;&lt;/mover&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;munderover&gt;&lt;mo&gt;∑&lt;/mo&gt;&lt;mrow&gt;&lt;mi&gt;j&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mrow&gt;&lt;mi&gt;q&lt;/mi&gt;&lt;/munderover&gt;&lt;msub&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mi&gt;j&lt;/mi&gt;&lt;/msub&gt;&lt;mi&gt;log&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;msub&gt;&lt;mover accent=&#34;true&#34;&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mo&gt;^&lt;/mo&gt;&lt;/mover&gt;&lt;mi&gt;j&lt;/mi&gt;&lt;/msub&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;.&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;l(\mathbf{y}, \hat{\mathbf{y}}) = - \sum_{j=1}^q y_j \log \hat{y}_j.
+&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.01968em;&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathbf&#34; style=&#34;margin-right:0.01597em;&#34;&gt;y&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mpunct&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord accent&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.70788em;&#34;&gt;&lt;span style=&#34;top:-3em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathbf&#34; style=&#34;margin-right:0.01597em;&#34;&gt;y&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.01344em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;accent-body&#34; style=&#34;left:-0.19444em;&#34;&gt;&lt;span class=&#34;mord&#34;&gt;^&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.19444em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:3.1122820000000004em;vertical-align:-1.4137769999999998em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop op-limits&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.6985050000000006em;&#34;&gt;&lt;span style=&#34;top:-1.872331em;margin-left:0em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.05em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34; style=&#34;margin-right:0.05724em;&#34;&gt;j&lt;/span&gt;&lt;span class=&#34;mrel mtight&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mord mtight&#34;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.050005em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.05em;&#34;&gt;&lt;/span&gt;&lt;span&gt;&lt;span class=&#34;mop op-symbol large-op&#34;&gt;∑&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-4.347113em;margin-left:0em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.05em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34; style=&#34;margin-right:0.03588em;&#34;&gt;q&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.4137769999999998em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;y&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.311664em;&#34;&gt;&lt;span style=&#34;top:-2.5500000000000003em;margin-left:-0.03588em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34; style=&#34;margin-right:0.05724em;&#34;&gt;j&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.286108em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop&#34;&gt;lo&lt;span style=&#34;margin-right:0.01389em;&#34;&gt;g&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord accent&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.69444em;&#34;&gt;&lt;span style=&#34;top:-3em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;y&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;accent-body&#34; style=&#34;left:-0.19444em;&#34;&gt;&lt;span class=&#34;mord&#34;&gt;^&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.19444em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.311664em;&#34;&gt;&lt;span style=&#34;top:-2.5500000000000003em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34; style=&#34;margin-right:0.05724em;&#34;&gt;j&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.286108em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;y 是一个长度为 q 的独热编码向量&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Softmax 回归是一个多类分类模型&lt;/li&gt;
+&lt;li&gt;・使用 Softmax 操作子得到每个类的预测置信度&lt;/li&gt;
+&lt;li&gt;・使用交叉熵来来衡量预测和标号的区别&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;损失函数&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#损失函数&#34;&gt;#&lt;/a&gt; 损失函数&lt;/h2&gt;
+&lt;h4 id=&#34;l2-loss&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#l2-loss&#34;&gt;#&lt;/a&gt; L2 Loss&lt;/h4&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5C29758%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20240218215459096.png&#34; alt=&#34;image-20240218215459096&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;l1-loss&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#l1-loss&#34;&gt;#&lt;/a&gt; L1 Loss&lt;/h4&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5C29758%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20240218215513903.png&#34; alt=&#34;image-20240218215513903&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;特性：预测值与真实值无论多远，梯度都是常数，较稳定，0 点处不可导，但是 0 点处不平滑&lt;/p&gt;
+&lt;p&gt;蓝色：y&#39;&lt;/p&gt;
+&lt;p&gt;绿色：似然函数（高斯分布）&lt;/p&gt;
+&lt;p&gt;黄色：梯度（穿过原点）&lt;/p&gt;
+&lt;h4 id=&#34;huber-s-robust-loss&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#huber-s-robust-loss&#34;&gt;#&lt;/a&gt; Huber&#39; s Robust Loss&lt;/h4&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5C29758%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20240218215531852.png&#34; alt=&#34;image-20240218215531852&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;结合两个&lt;/p&gt;
+&lt;h2 id=&#34;信息论基础&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#信息论基础&#34;&gt;#&lt;/a&gt; 信息论基础&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;信息论&lt;/em&gt;（information theory）涉及编码、解码、发送以及尽可能简洁地处理信息或数据。&lt;/p&gt;
+&lt;h3 id=&#34;熵&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#熵&#34;&gt;#&lt;/a&gt; 熵&lt;/h3&gt;
+&lt;p&gt;信息论的核心思想是量化数据中的信息内容。 在信息论中，该数值被称为分布 P 的&lt;em&gt;熵&lt;/em&gt;（entropy）。可以通过以下方程得到：&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;katex-display&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34; display=&#34;block&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;H&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;[&lt;/mo&gt;&lt;mi&gt;P&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;]&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;munder&gt;&lt;mo&gt;∑&lt;/mo&gt;&lt;mi&gt;j&lt;/mi&gt;&lt;/munder&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mi&gt;P&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;j&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mi&gt;log&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mi&gt;P&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;j&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;.&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;H[P] = \sum_j - P(j) \log P(j).
+&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.08125em;&#34;&gt;H&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.13889em;&#34;&gt;P&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:2.463782em;vertical-align:-1.413777em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop op-limits&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.050005em;&#34;&gt;&lt;span style=&#34;top:-1.8723309999999997em;margin-left:0em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.05em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34; style=&#34;margin-right:0.05724em;&#34;&gt;j&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.0500049999999996em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.05em;&#34;&gt;&lt;/span&gt;&lt;span&gt;&lt;span class=&#34;mop op-symbol large-op&#34;&gt;∑&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.413777em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.13889em;&#34;&gt;P&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.05724em;&#34;&gt;j&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop&#34;&gt;lo&lt;span style=&#34;margin-right:0.01389em;&#34;&gt;g&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.13889em;&#34;&gt;P&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.05724em;&#34;&gt;j&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;vscode终端进入运行jupyter&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#vscode终端进入运行jupyter&#34;&gt;#&lt;/a&gt; vscode 终端进入运行 jupyter&lt;/h3&gt;
+&lt;p&gt;1. 下载&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;pip install jupyter&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;2. 进入&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;jupyter notebook&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h2 id=&#34;图像分类数据集&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#图像分类数据集&#34;&gt;#&lt;/a&gt; 图像分类数据集&lt;/h2&gt;
+&lt;p&gt;MNIST 数据集 (&lt;a href=&#34;https://zh-v2.d2l.ai/chapter_references/zreferences.html#id90&#34;&gt;LeCun &lt;em&gt;et al.&lt;/em&gt;, 1998&lt;/a&gt;) 是图像分类中广泛使用的数据集之一，但作为基准数据集过于简单。 我们将使用类似但更复杂的 Fashion-MNIST 数据集 (&lt;a href=&#34;https://zh-v2.d2l.ai/chapter_references/zreferences.html#id189&#34;&gt;Xiao &lt;em&gt;et al.&lt;/em&gt;, 2017&lt;/a&gt;)。&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;%matplotlib inline&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; torch&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; torchvision&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;from&lt;/span&gt; torch.utils &lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; data&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;from&lt;/span&gt; torchvision &lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; transforms &lt;span class=&#34;comment&#34;&gt;#数据操作&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;from&lt;/span&gt; d2l &lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; torch &lt;span class=&#34;keyword&#34;&gt;as&lt;/span&gt; d2l&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;d2l.use_svg_display()&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;svg 清晰度高一些&lt;/p&gt;
+&lt;h3 id=&#34;读取数据集&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#读取数据集&#34;&gt;#&lt;/a&gt; 读取数据集&lt;/h3&gt;
+&lt;p&gt;我们可以通过框架中的内置函数将 Fashion-MNIST 数据集下载并读取到内存中。&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 通过ToTensor实例将图像数据从PIL类型变换成32位浮点数格式，&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 并除以255使得所有像素的数值均在0～1之间&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;trans = transforms.ToTensor()&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;mnist_train = torchvision.datasets.FashionMNIST(&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    root=&lt;span class=&#34;string&#34;&gt;&amp;quot;../data&amp;quot;&lt;/span&gt;, train=&lt;span class=&#34;literal&#34;&gt;True&lt;/span&gt;, transform=trans, download=&lt;span class=&#34;literal&#34;&gt;True&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;#训练数据集&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;mnist_test = torchvision.datasets.FashionMNIST(&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    root=&lt;span class=&#34;string&#34;&gt;&amp;quot;../data&amp;quot;&lt;/span&gt;, train=&lt;span class=&#34;literal&#34;&gt;False&lt;/span&gt;, transform=trans, download=&lt;span class=&#34;literal&#34;&gt;True&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;train=True 训练数据集&lt;/p&gt;
+&lt;p&gt;transform=trans 拿到的是 tensor 而不是一堆图片&lt;/p&gt;
+&lt;p&gt;download=True 默认在网上下载，如果已经存在 data 中就不用指定 download 了&lt;/p&gt;
+&lt;p&gt;Fashion-MNIST 由 10 个类别的图像组成， 每个类别由&lt;em&gt;训练数据集&lt;/em&gt;（train dataset）中的 6000 张图像 和&lt;em&gt;测试数据集&lt;/em&gt;（test dataset）中的 1000 张图像组成。 因此，训练集和测试集分别包含 60000 和 10000 张图像。 测试数据集不会用于训练，只用于评估模型性能。&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;len&lt;/span&gt;(mnist_train), &lt;span class=&#34;built_in&#34;&gt;len&lt;/span&gt;(mnist_test)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;(60000, 10000)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;每个输入图像的高度和宽度均为 28 像素。 数据集由灰度图像组成，其通道数为 1。 为了简洁起见，本书将高度ℎ像素、宽度 w 像素图像的形状记为ℎ×w 或（ℎ,w）。&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;mnist_train[&lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;][&lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;].shape&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;torch.Size([1, 28, 28])&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Fashion-MNIST 中包含的 10 个类别，分别为 t-shirt（T 恤）、trouser（裤子）、pullover（套衫）、dress（连衣裙）、coat（外套）、sandal（凉鞋）、shirt（衬衫）、sneaker（运动鞋）、bag（包）和 ankle boot（短靴）。 以下函数用于在数字标签索引及其文本名称之间进行转换。&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;get_fashion_mnist_labels&lt;/span&gt;(&lt;span class=&#34;params&#34;&gt;labels&lt;/span&gt;):  &lt;span class=&#34;comment&#34;&gt;#@save&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;string&#34;&gt;&amp;quot;&amp;quot;&amp;quot;返回Fashion-MNIST数据集的文本标签&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    text_labels = [&lt;span class=&#34;string&#34;&gt;&amp;#x27;t-shirt&amp;#x27;&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;trouser&amp;#x27;&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;pullover&amp;#x27;&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;dress&amp;#x27;&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;coat&amp;#x27;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                   &lt;span class=&#34;string&#34;&gt;&amp;#x27;sandal&amp;#x27;&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;shirt&amp;#x27;&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;sneaker&amp;#x27;&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;bag&amp;#x27;&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;ankle boot&amp;#x27;&lt;/span&gt;]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; [text_labels[&lt;span class=&#34;built_in&#34;&gt;int&lt;/span&gt;(i)] &lt;span class=&#34;keyword&#34;&gt;for&lt;/span&gt; i &lt;span class=&#34;keyword&#34;&gt;in&lt;/span&gt; labels]&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;我们现在可以创建一个函数来可视化这些样本。&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;show_images&lt;/span&gt;(&lt;span class=&#34;params&#34;&gt;imgs, num_rows, num_cols, titles=&lt;span class=&#34;literal&#34;&gt;None&lt;/span&gt;, scale=&lt;span class=&#34;number&#34;&gt;1.5&lt;/span&gt;&lt;/span&gt;):  &lt;span class=&#34;comment&#34;&gt;#@save&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;string&#34;&gt;&amp;quot;&amp;quot;&amp;quot;绘制图像列表&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    figsize = (num_cols * scale, num_rows * scale)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    _, axes = d2l.plt.subplots(num_rows, num_cols, figsize=figsize)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    axes = axes.flatten()&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;for&lt;/span&gt; i, (ax, img) &lt;span class=&#34;keyword&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;built_in&#34;&gt;enumerate&lt;/span&gt;(&lt;span class=&#34;built_in&#34;&gt;zip&lt;/span&gt;(axes, imgs)):&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; torch.is_tensor(img):&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &lt;span class=&#34;comment&#34;&gt;# 图片张量&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            ax.imshow(img.numpy())&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;else&lt;/span&gt;:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &lt;span class=&#34;comment&#34;&gt;# PIL图片&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            ax.imshow(img)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        ax.axes.get_xaxis().set_visible(&lt;span class=&#34;literal&#34;&gt;False&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        ax.axes.get_yaxis().set_visible(&lt;span class=&#34;literal&#34;&gt;False&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; titles:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            ax.set_title(titles[i])&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; axes&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;以下是训练数据集中前几个样本的图像及其相应的标签。&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;X, y = &lt;span class=&#34;built_in&#34;&gt;next&lt;/span&gt;(&lt;span class=&#34;built_in&#34;&gt;iter&lt;/span&gt;(data.DataLoader(mnist_train, batch_size=&lt;span class=&#34;number&#34;&gt;18&lt;/span&gt;)))&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;show_images(X.reshape(&lt;span class=&#34;number&#34;&gt;18&lt;/span&gt;, &lt;span class=&#34;number&#34;&gt;28&lt;/span&gt;, &lt;span class=&#34;number&#34;&gt;28&lt;/span&gt;), &lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;, &lt;span class=&#34;number&#34;&gt;9&lt;/span&gt;, titles=get_fashion_mnist_labels(y));&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5C29758%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20240218232124716.png&#34; alt=&#34;image-20240218232124716&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;读取小批量&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#读取小批量&#34;&gt;#&lt;/a&gt; 读取小批量&lt;/h2&gt;
+&lt;p&gt;为了使我们在读取训练集和测试集时更容易，我们使用内置的数据迭代器，而不是从零开始创建。 回顾一下，在每次迭代中，数据加载器每次都会读取一小批量数据，大小为 &lt;code&gt;batch_size&lt;/code&gt; 。 通过内置数据迭代器，我们可以随机打乱了所有样本，从而无偏见地读取小批量。&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;batch_size = &lt;span class=&#34;number&#34;&gt;256&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;get_dataloader_workers&lt;/span&gt;():  &lt;span class=&#34;comment&#34;&gt;#@save&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;string&#34;&gt;&amp;quot;&amp;quot;&amp;quot;使用4个进程来读取数据&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;number&#34;&gt;4&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;train_iter = data.DataLoader(mnist_train, batch_size, shuffle=&lt;span class=&#34;literal&#34;&gt;True&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                             num_workers=get_dataloader_workers())&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;训练集要随机，测试集都可以&lt;/p&gt;
+&lt;p&gt;我们看一下&lt;strong&gt;读取&lt;/strong&gt;训练数据所需的时间。&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;timer = d2l.Timer()&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;for&lt;/span&gt; X, y &lt;span class=&#34;keyword&#34;&gt;in&lt;/span&gt; train_iter:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;continue&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;f&amp;#x27;&lt;span class=&#34;subst&#34;&gt;&amp;#123;timer.stop():&lt;span class=&#34;number&#34;&gt;.2&lt;/span&gt;f&amp;#125;&lt;/span&gt; sec&amp;#x27;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&amp;#x27;3.37 sec&amp;#x27;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;保证读取速度比训练速度快，尽量快很多&lt;/p&gt;
+&lt;h3 id=&#34;整合所有组件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#整合所有组件&#34;&gt;#&lt;/a&gt; 整合所有组件&lt;/h3&gt;
+&lt;p&gt;现在我们定义 &lt;code&gt;load_data_fashion_mnist&lt;/code&gt;  函数，用于获取和读取 Fashion-MNIST 数据集。 这个函数返回&lt;strong&gt;训练集和验证集的数据迭代器&lt;/strong&gt;。 此外，这个函数还接受一个可选参数 &lt;code&gt;resize&lt;/code&gt; ，用来将图像大小调整为另一种形状。&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;load_data_fashion_mnist&lt;/span&gt;(&lt;span class=&#34;params&#34;&gt;batch_size, resize=&lt;span class=&#34;literal&#34;&gt;None&lt;/span&gt;&lt;/span&gt;):   &lt;span class=&#34;comment&#34;&gt;#@save&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;string&#34;&gt;&amp;quot;&amp;quot;&amp;quot;下载Fashion-MNIST数据集，然后将其加载到内存中&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    mnist_train, mnist_test = tf.keras.datasets.fashion_mnist.load_data()&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;# 将所有数字除以255，使所有像素值介于0和1之间，在最后添加一个批处理维度，&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;# 并将标签转换为int32。&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    process = &lt;span class=&#34;keyword&#34;&gt;lambda&lt;/span&gt; X, y: (tf.expand_dims(X, axis=&lt;span class=&#34;number&#34;&gt;3&lt;/span&gt;) / &lt;span class=&#34;number&#34;&gt;255&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                            tf.cast(y, dtype=&lt;span class=&#34;string&#34;&gt;&amp;#x27;int32&amp;#x27;&lt;/span&gt;))&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    resize_fn = &lt;span class=&#34;keyword&#34;&gt;lambda&lt;/span&gt; X, y: (&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        tf.image.resize_with_pad(X, resize, resize) &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; resize &lt;span class=&#34;keyword&#34;&gt;else&lt;/span&gt; X, y)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; (&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        tf.data.Dataset.from_tensor_slices(process(*mnist_train)).batch(&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            batch_size).shuffle(&lt;span class=&#34;built_in&#34;&gt;len&lt;/span&gt;(mnist_train[&lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;])).&lt;span class=&#34;built_in&#34;&gt;map&lt;/span&gt;(resize_fn),&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        tf.data.Dataset.from_tensor_slices(process(*mnist_test)).batch(&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            batch_size).&lt;span class=&#34;built_in&#34;&gt;map&lt;/span&gt;(resize_fn))&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 </content>
+        <category term="深度学习" scheme="https://jinjiaojiao.top/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" />
         <category term="跟着李沐学深度学习" scheme="https://jinjiaojiao.top/tags/%E8%B7%9F%E7%9D%80%E6%9D%8E%E6%B2%90%E5%AD%A6%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" />
         <updated>2024-02-13T18:46:58.000Z</updated>
     </entry>
@@ -314,6 +413,7 @@
 &lt;p&gt;&lt;img data-src=&#34;https://pic.imgdb.cn/item/65cbac4c9f345e8d036f8948.png&#34; alt=&#34;image-20240208200237222&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://pic.imgdb.cn/item/65cbac679f345e8d036fcbdc.png&#34; alt=&#34;image-20240208200405438&#34; /&gt;&lt;/p&gt;
 </content>
+        <category term="深度学习" scheme="https://jinjiaojiao.top/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" />
         <category term="跟着李沐学深度学习" scheme="https://jinjiaojiao.top/tags/%E8%B7%9F%E7%9D%80%E6%9D%8E%E6%B2%90%E5%AD%A6%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" />
         <updated>2024-02-13T17:39:00.000Z</updated>
     </entry>
@@ -789,6 +889,7 @@ c-16-25.333-24-45-24-59z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/spa
 &lt;p&gt;是 log_softmax 中的对数运算&lt;/p&gt;
 &lt;p&gt;epoch 训练伦次，提高数据利用率&lt;/p&gt;
 </content>
+        <category term="PyTorch学习" scheme="https://jinjiaojiao.top/categories/PyTorch%E5%AD%A6%E4%B9%A0/" />
         <category term="PyTorch学习" scheme="https://jinjiaojiao.top/tags/PyTorch%E5%AD%A6%E4%B9%A0/" />
         <updated>2024-02-11T10:25:18.000Z</updated>
     </entry>
@@ -1204,364 +1305,6 @@ Debian/Ubuntu 系统，需要执行以下命令：&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0Nsb3Vkb3hfL2FydGljbGUvZGV0YWlscy83ODY1MTYzNw==&#34;&gt;https://blog.csdn.net/Cloudox_/article/details/78651637&lt;/span&gt;&lt;/p&gt;
 </content>
         <category term="AI复盘" scheme="https://jinjiaojiao.top/categories/AI%E5%A4%8D%E7%9B%98/" />
-        <category term="AI复盘" scheme="https://jinjiaojiao.top/tags/AI%E5%A4%8D%E7%9B%98/" />
-        <updated>2024-02-07T05:26:07.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://jinjiaojiao.top/2024/02/07/CS/course-1/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</id>
-        <title>复盘in2vec</title>
-        <link rel="alternate" href="https://jinjiaojiao.top/2024/02/07/CS/course-1/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-        <content type="html">&lt;p&gt;2024-2-7&lt;/p&gt;
-&lt;p&gt;复盘：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL0NWTEFCLVVuaWJvL2lucjJ2ZWM/dGFiPXJlYWRtZS1vdi1maWxl&#34;&gt;https://github.com/CVLAB-Unibo/inr2vec?tab=readme-ov-file&lt;/span&gt;&lt;/p&gt;
-&lt;h2 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h2&gt;
-&lt;p&gt;用的阿里云服务器&lt;/p&gt;
-&lt;p&gt;vscode-&amp;gt; 先下载扩展 remote-ssh&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;#ssh username@公有ip&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;username 经常是root&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;.config 选一个本地的 我就是第一个C:/29785/.config 差不多这个&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Linux&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;password:输入你自己的&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;进入终端&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;mkdir cs&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;cd cs&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;mkdir in2vec&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;发现没 conda&lt;/p&gt;
-&lt;h2 id=&#34;服务器安装anaconda&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#服务器安装anaconda&#34;&gt;#&lt;/a&gt; 服务器安装 anaconda&lt;/h2&gt;
-&lt;h4 id=&#34;下载anaconda&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#下载anaconda&#34;&gt;#&lt;/a&gt; 下载 anaconda&lt;/h4&gt;
-&lt;p&gt;后面的链接可以去官网查找自己适合的版本&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;wget https://repo.anaconda.com/archive/Anaconda3-5.3.0-Linux-x86_64.sh&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;.sh 为 Linux 后缀&lt;/p&gt;
-&lt;p&gt;——————————————————&lt;/p&gt;
-&lt;p&gt;如果出现&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;bash: wget: command not found&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;具体解决办法如下:&lt;br /&gt;
-Debian/Ubuntu 系统，需要执行以下命令：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;apt-get install -y wget&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;CentOS 系统则需要输入下面指令:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;yum install wget -y&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;————————————————————&lt;/p&gt;
-&lt;h4 id=&#34;赋权anaconda&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#赋权anaconda&#34;&gt;#&lt;/a&gt; 赋权 anaconda&lt;/h4&gt;
-&lt;p&gt;接下来我们需要首先赋权再执行安装程序，依次输入下面两句命令:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;chmod +x Anaconda3-5.3.0-Linux-x86_64.sh&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;./Anaconda3-5.3.0-Linux-x86_64.sh&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;然后出现下面图所示:&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2024/02/07/OKcNDvCVY75lrqe.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;h4 id=&#34;一直点击enter回车键&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一直点击enter回车键&#34;&gt;#&lt;/a&gt; 一直点击 Enter（回车键）&lt;/h4&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2024/02/07/mIkfztbra6cKnYT.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;此时显示 Anaconda 的信息，并且会出现 More，继续按 Enter，直到如下图所示:&lt;/p&gt;
-&lt;h4 id=&#34;输入-yes&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#输入-yes&#34;&gt;#&lt;/a&gt; 输入 yes&lt;/h4&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2024/02/07/bEM3dxyNGqgoz4K.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;h4 id=&#34;继续点击-enter&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#继续点击-enter&#34;&gt;#&lt;/a&gt; 继续点击 Enter&lt;/h4&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2024/02/07/zZvmdlD3Gcahxqu.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;h4 id=&#34;输入-yes添加环境变量&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#输入-yes添加环境变量&#34;&gt;#&lt;/a&gt; 输入 yes，添加环境变量&lt;/h4&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2024/02/07/yBq74es8zYAwDiC.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;^^^^^^^^^^^^^^^^^^^^^^^^^^^&lt;/p&gt;
-&lt;p&gt;这里需要注意点的就是如果你直接跳过这部设置环境变量的话：&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;[no ] &amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;那你需要自己到这个文件夹设置你安装 Anaconda 路径&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;find -name &amp;quot;anaconda3&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;（比如上面显示我的是）&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;./anaconda3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;单击进去，在最后一行添加：&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;export PATH=./anaconda3/bin:$PATH&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;这里只是个示例，具体的还是要看你们自己安装的路径。&lt;/p&gt;
-&lt;p&gt;然后保存更改，输入下面这句指令：&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;source ~/.bashrc&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;—————————————————————&lt;/p&gt;
-&lt;h4 id=&#34;完成安装以及检测是否安装成功&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#完成安装以及检测是否安装成功&#34;&gt;#&lt;/a&gt; 完成安装以及检测是否安装成功&lt;/h4&gt;
-&lt;p&gt;打开新的终端后，进入自己的文件夹目录下，输入 anaconda -V（注意 a 要小写，V 要大写），conda -V ,&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;conda -V&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;或者&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;conda --version&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;显示版本信息，若显示则表示安装成功。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;conda 4.5.11&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id=&#34;anaconda安装pytorch&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#anaconda安装pytorch&#34;&gt;#&lt;/a&gt; Anaconda 安装&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zby5jc2RuLm5ldC9zby9zZWFyY2g/cT1QeXRvcmNoJmFtcDtzcG09MTAwMS4yMTAxLjMwMDEuNzAyMA==&#34;&gt; Pytorch&lt;/span&gt;&lt;/h2&gt;
-&lt;h3 id=&#34;创建虚拟环境&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#创建虚拟环境&#34;&gt;#&lt;/a&gt; 创建虚拟环境&lt;/h3&gt;
-&lt;p&gt;第一个程序环境名为 pytorch&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;conda create -n pytorch python=3.7 （pytorch 是我自己取的名字）&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;h3 id=&#34;激活环境&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#激活环境&#34;&gt;#&lt;/a&gt; 激活环境&lt;/h3&gt;
-&lt;p&gt;使用下面这条命令，激活环境：&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;conda activate pytorch&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;h3 id=&#34;可能出现的问题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#可能出现的问题&#34;&gt;#&lt;/a&gt; 可能出现的问题&lt;/h3&gt;
-&lt;p&gt;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^&lt;/p&gt;
-&lt;p&gt;出现下面所示 1：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2024/02/07/yBq74es8zYAwDiC.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;问题出现是因为尽管安装了  &lt;code&gt;Anaconda&lt;/code&gt;  或  &lt;code&gt;Miniconda&lt;/code&gt; ，&lt;/p&gt;
-&lt;p&gt;但是你的 shell 环境没有被正确配置以识别  &lt;code&gt;conda&lt;/code&gt;  命令。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;解决办法：&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;启用  &lt;code&gt;conda&lt;/code&gt;  命令&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;如果你使用的是 Bash shell 或者类似 Bourne 的 shell，你需要将  &lt;code&gt;conda&lt;/code&gt;  的初始化脚本添加到你的 shell 配置文件中（通常是&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;~/.bashrc&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;文件），以便  &lt;code&gt;conda&lt;/code&gt;  命令可以被识别。根据提供的信息，你可以通过运行以下命令来做到这一点：&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;echo &amp;quot;. /root/anaconda3/etc/profile.d/conda.sh&amp;quot; &amp;gt;&amp;gt; ~/.bashrc&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;这会将初始化脚本的路径添加到你的&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;~/.bashrc&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;文件中，每次启动新的 shell 会话时都会自动执行这个脚本。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;激活  &lt;code&gt;conda&lt;/code&gt;  的基础（root）环境&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;为了使用 &lt;code&gt;conda&lt;/code&gt;  管理你的环境和包，你需要激活  &lt;code&gt;conda&lt;/code&gt;  的基础环境。你可以通过在终端中运行以下命令来做到这一点：&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;conda activate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;如果你想在每次打开新的终端会话时自动激活  &lt;code&gt;conda&lt;/code&gt;  的基础环境，你可以将上述命令添加到你的&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;~/.bashrc&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;文件中：&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;echo &amp;quot;conda activate&amp;quot; &amp;gt;&amp;gt; ~/.bashrc&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;移除旧的 PATH 设置&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;如果你之前尝试通过直接修改  &lt;code&gt;PATH&lt;/code&gt;  环境变量来使用  &lt;code&gt;conda&lt;/code&gt; ，你应该从你的&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;~/.bashrc&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;文件中移除这样的行：&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;export PATH=&amp;quot;/root/anaconda3/bin:$PATH&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;这是因为直接修改  &lt;code&gt;PATH&lt;/code&gt;  不再是推荐的方法，使用  &lt;code&gt;conda&lt;/code&gt;  的初始化脚本和  &lt;code&gt;conda activate&lt;/code&gt;  命令是更好的选择。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;完成以上步骤后，关闭并重新打开你的终端，或者运行  &lt;code&gt;source ~/.bashrc&lt;/code&gt;  来使改动生效。这样，你的 shell 环境就被正确配置了，应该能够识别  &lt;code&gt;conda&lt;/code&gt;  命令了。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;出现下面所示 2:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;(pytorch) root@dev-wyf-react:~/wyf#&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;检测环境是否安装好:&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;conda info --envs&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;出现下面所示：&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;base /root/anaconda3&lt;/code&gt; &lt;br /&gt;
- &lt;code&gt;pytorch * /root/anaconda3/envs/pytorch&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;然后去选择适合自己的 pytorch 版本，点击下面那个链接:&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9weXRvcmNoLm9yZy8=&#34;&gt;https://pytorch.org/&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;get started&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5C29758%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20240207012929597.png&#34; alt=&#34;image-20240207012929597&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;输入到控制台:&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;弹出提示，输入 y，即可完成安装，显示 “done”。&lt;/p&gt;
-&lt;p&gt;——————————————————————————————&lt;/p&gt;
-&lt;h3 id=&#34;测试安装成功&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#测试安装成功&#34;&gt;#&lt;/a&gt; 测试安装成功&lt;/h3&gt;
-&lt;p&gt;首先输入：&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;python&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;然后在输入：&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;import torch&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2024/02/07/M9jTXGulqSwhE8d.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;如果没有可以&lt;strong&gt;重新下载康康&lt;/strong&gt;或者&lt;strong&gt;查看环境&lt;/strong&gt;&lt;/p&gt;
-&lt;h3 id=&#34;退出之后如何查看自己安装的环境&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#退出之后如何查看自己安装的环境&#34;&gt;#&lt;/a&gt; 退出之后如何查看自己安装的环境&lt;/h3&gt;
-&lt;p&gt;如果在一台服务器上安装多个环境，一下子可能不记得需要激活哪个环境名称，这时候我们需要使用下面这个命令来查找：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;conda info --envs&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2024/02/07/hkcRHwlpSIx2UJ1.png&#34; alt=&#34;image-20240207012544351&#34; /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;复盘项目&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#复盘项目&#34;&gt;#&lt;/a&gt; 复盘项目&lt;/h2&gt;
-&lt;p&gt;打开&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL0NWTEFCLVVuaWJvL2lucjJ2ZWM/dGFiPXJlYWRtZS1vdi1maWxl&#34;&gt;https://github.com/CVLAB-Unibo/inr2vec?tab=readme-ov-file&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;配置git&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置git&#34;&gt;#&lt;/a&gt; 配置 git&lt;/h3&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;git --version&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;如果已经安装过了就可以直接跳到 3.2 了&lt;/p&gt;
-&lt;p&gt;也不知道阿里云服务器什么发行版，输入如下命令查看&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;cat /etc/*-release&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2024/02/07/WQzUZjoMIs6tX4L.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;根据信息，Alibaba Cloud Linux 3 是一个与 RHEL（Red Hat Enterprise Linux）、Fedora 和 CentOS 兼容的发行版。&lt;/p&gt;
-&lt;p&gt;使用与这些发行版相同的包管理器，大多数情况下将是  &lt;code&gt;yum&lt;/code&gt;  或者在某些新版本中是  &lt;code&gt;dnf&lt;/code&gt; 。&lt;/p&gt;
-&lt;p&gt;以下命令来安装 &lt;code&gt;git&lt;/code&gt; ：&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sudo yum update&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo yum install git&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;或者，如果系统支持  &lt;code&gt;dnf&lt;/code&gt; ：&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sudo dnf update&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo dnf install git&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;执行更新（ &lt;code&gt;yum update&lt;/code&gt;  或  &lt;code&gt;dnf update&lt;/code&gt; ）是一个好习惯，它会确保所有的软件包都是最新的。然后，使用安装命令来安装 &lt;code&gt;git&lt;/code&gt; 。&lt;/p&gt;
-&lt;h3 id=&#34;git-clone-代码&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git-clone-代码&#34;&gt;#&lt;/a&gt; git clone 代码&lt;/h3&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;git clone https://github.com/CVLAB-Unibo/inr2vec.git&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;等一会儿就下好啦&lt;/p&gt;
-&lt;h3 id=&#34;创建对应的环境&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#创建对应的环境&#34;&gt;#&lt;/a&gt; 创建对应的环境&lt;/h3&gt;
-&lt;p&gt;！！！！以下内容仅作知识补充&lt;/p&gt;
-&lt;h4 id=&#34;创建虚拟环境-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#创建虚拟环境-2&#34;&gt;#&lt;/a&gt; &lt;strong&gt;创建虚拟环境&lt;/strong&gt;：&lt;/h4&gt;
-&lt;p&gt;​	Anaconda 创建环境：&lt;br /&gt;
-​	比如，创建 pyhon＝3.7 的版本环境取名叫 &lt;code&gt;inr2vec&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;conda create -n inr2vec python=3.7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;h4 id=&#34;删除虚拟环境操作谨慎操作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#删除虚拟环境操作谨慎操作&#34;&gt;#&lt;/a&gt; &lt;strong&gt;删除虚拟环境操作&lt;/strong&gt;：（谨慎操作）&lt;/h4&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;conda remove -n inr2vec --all&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;h4 id=&#34;激活环境-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#激活环境-2&#34;&gt;#&lt;/a&gt; &lt;strong&gt;激活环境&lt;/strong&gt;&lt;/h4&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;conda activate inr2vec&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;如果发现进不去，那么&lt;/p&gt;
-&lt;p&gt;先:  &lt;code&gt;source activate inr2vec&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;再:  &lt;code&gt;conda activate inr2vec&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 查看python版本&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;python --version&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;h4 id=&#34;查看环境下已有的安装包&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#查看环境下已有的安装包&#34;&gt;#&lt;/a&gt; 查看环境下已有的安装包：&lt;/h4&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;conda &lt;span class=&#34;built_in&#34;&gt;list&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;效果如下&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2024/02/07/y6pf4seiK3kMhlY.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;在进入虚拟环境的情况下， &lt;code&gt;安装对应包&lt;/code&gt; 直接&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;pip install xxxx 或者 conda install xxxx&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;如：&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;pip install tensorflow&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;注意&lt;/code&gt; ：此环境下的安装包在 &lt;code&gt;退出虚拟环境后无法使用&lt;/code&gt; 的&lt;/p&gt;
-&lt;h4 id=&#34;退出当前虚拟环境&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#退出当前虚拟环境&#34;&gt;#&lt;/a&gt; 退出当前虚拟环境：&lt;/h4&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;conda deactivate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;补充：Linux 下查看已有虚拟环境：&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;conda-env &lt;span class=&#34;built_in&#34;&gt;list&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;提醒：有时候遇到过几次异常，所以开启完虚拟环境后最好使用命令&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;which python&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;判断编译器位置最为稳妥（inr2vec 是虚拟环境名），有一个 &lt;code&gt;home/anaconda/envs/nlp/bin/python&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2024/02/07/6YRAH5giOa2KkId.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;如果发现没有在  &lt;code&gt;anaconda/envs&lt;/code&gt;  的虚拟环境 (inr2vec) 下，则多次使用&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;conda deactivate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;先退出当前环境，然后再重新使用  &lt;code&gt;source activate xxxx&lt;/code&gt;  进入环境&lt;/p&gt;
-&lt;h4 id=&#34;重命名环境&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#重命名环境&#34;&gt;#&lt;/a&gt; 重命名环境&lt;/h4&gt;
-&lt;p&gt;conda 其实没有重命名指令，实现重命名是通过 clone 完成的，分两步：&lt;br /&gt;
-①先 clone 一份 new name 的环境&lt;br /&gt;
-②删除 old name 的环境&lt;/p&gt;
-&lt;p&gt;如，将 &lt;code&gt;inr2vec&lt;/code&gt;  重命名成 &lt;code&gt;tf2&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;conda create -n tf2 --clone inr2vec&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;删除原环境&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;conda remove -n inr2vec --&lt;span class=&#34;built_in&#34;&gt;all&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;————————————&lt;/p&gt;
-&lt;h3 id=&#34;根据readme-继续操作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#根据readme-继续操作&#34;&gt;#&lt;/a&gt; 根据 readme 继续操作&lt;/h3&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5C29758%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20240207095527514.png&#34; alt=&#34;image-20240207095527514&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5C29758%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20240207095541074.png&#34; alt=&#34;image-20240207095541074&#34; /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;跟着操作细节&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#跟着操作细节&#34;&gt;#&lt;/a&gt; 跟着操作细节&lt;/h3&gt;
-&lt;p&gt;Create a virtual environment and install the library  &lt;code&gt;pycarus&lt;/code&gt; :&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;python3 -m venv .venv&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;source .venv/bin/activate&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;pip install -U pip setuptools&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;pip install pycarus&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;前两个没问题 第三个开始发现太慢了&lt;/p&gt;
-&lt;p&gt;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^&lt;/p&gt;
-&lt;p&gt;于是决定来个镜像&lt;/p&gt;
-&lt;h4 id=&#34;为本地conda环境配置国内镜像源&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#为本地conda环境配置国内镜像源&#34;&gt;#&lt;/a&gt; 为本地 conda 环境配置国内镜像源&lt;/h4&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;conda config --add channels https://mirrors.aliyun.com/pypi/simple/&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;h4 id=&#34;为服务器的conda环境配置国内镜像源&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#为服务器的conda环境配置国内镜像源&#34;&gt;#&lt;/a&gt; 为服务器的 conda 环境配置国内镜像源&lt;/h4&gt;
-&lt;p&gt;添加清华镜像源&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight text&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;conda config --add channels http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/win-64/&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;【注】使用 http 不是 https，在后面加上 win-64&lt;/em&gt;&lt;/p&gt;
-&lt;h4 id=&#34;常用操作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#常用操作&#34;&gt;#&lt;/a&gt; 常用操作&lt;/h4&gt;
-&lt;p&gt;显示添加的源通道&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight text&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;conda config --show-sources&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;移除某一镜像源&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight text&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;conda config --remove channels 源名称或链接 &lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;验证安装&lt;/p&gt;
-&lt;p&gt;为了确保正确安装了 PyTorch，我们可以通过运行示例 PyTorch 代码来验证安装。在这里，我们将构造一个随机初始张量&lt;/p&gt;
-&lt;p&gt;在 anaconda prompt (miniconda3) 命令行或者 shell 中，输入：&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight text&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;python &lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;然后输入以下代码：&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight text&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;import torch &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;x = torch.rand(5, 3) &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;print(x)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;输出应类似于以下内容：&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight text&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;tensor([[0.3380, 0.3845, 0.3217],&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      [0.8337, 0.9050, 0.2650],&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      [0.2979, 0.7141, 0.9069],&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      [0.1449, 0.1132, 0.1375],&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      [0.4675, 0.3947, 0.1426]])&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;此外，如果要检查 PyTorch 是否启用了 GPU 和 CUDA，请运行以下命令以返回是否启用了 CUDA 驱动程序：&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight text&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;import torch  &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;torch.cuda.is_available()&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;如果返回了 True， 恭喜您，成功安装了 GPU 版本。&lt;/p&gt;
-&lt;p&gt;——————————————————————————————&lt;/p&gt;
-&lt;p&gt;Then, try to import  &lt;code&gt;pycarus&lt;/code&gt;  to get the command that you can run to install all the needed Pytorch libraries:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;常用的检查有没有 $ pip install -U pip setuptools 装好包的步骤：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ python3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;gt;&amp;gt;&amp;gt; import pycarus&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;...&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;ModuleNotFoundError: PyTorch is not installed. Install it by running: source /XXX/.venv/lib/python3.8/site-packages/pycarus/install_torch.sh&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;exit（）退出 python 环境&lt;/p&gt;
-&lt;p&gt;不记得有没有安装好&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;$ pip install -U pip setuptools&lt;/code&gt; &lt;br /&gt;
- &lt;code&gt;$ pip install pycarus&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;重新执行啦&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;pip install -U pip setuptools&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;————————————————————————&lt;/p&gt;
-&lt;p&gt;出现这种情况&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2024/02/07/d7BQk6IHzu8DwAP.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;成功安装&lt;/p&gt;
-&lt;p&gt;waring 是因为&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;在 Linux 中， &lt;code&gt;root&lt;/code&gt;  是具有最高权限的用户账户，可以访问和修改系统的任何部分。以 &lt;code&gt;root&lt;/code&gt;  用户身份运行 &lt;code&gt;pip&lt;/code&gt;  可能会导致权限问题，尤其是当系统的包管理器试图管理相同的 Python 包时。这可能会导致系统中的包版本冲突或损坏。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;解决方法（无虚拟环境条件）&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;python3 -m venv myenv        # 创建一个名为myenv的虚拟环境&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;source myenv/bin/activate    # 激活虚拟环境&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;pip install package_name     # 在虚拟环境中安装包&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;——————————————————&lt;/p&gt;
-&lt;h3 id=&#34;尾声磁盘空间不足&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#尾声磁盘空间不足&#34;&gt;#&lt;/a&gt; 尾声：磁盘空间不足&lt;/h3&gt;
-&lt;p&gt;安装包后&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;ERROR: Could not install packages due to an OSError: [Errno 28] No space left on device&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;磁盘空间不足的错误（ &lt;code&gt;No space left on device&lt;/code&gt; ）&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;删除不必要的文件或数据&lt;/strong&gt;：首先，检查您的磁盘空间使用情况，查找并删除不再需要的大文件或目录。可以使用如 &lt;code&gt;du&lt;/code&gt;  和 &lt;code&gt;df&lt;/code&gt;  命令来帮助您找出使用最多磁盘空间的目录。&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;df -h          # 查看每个挂载点的磁盘使用情况&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;du -sh /*      # 查看根目录下每个文件夹的大小&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;如果发现特定目录特别大，可以深入查看该目录下的内容：&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;du -sh /path/to/directory/*   # 替换路径以检查特定目录&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;当找到不需要的大文件或目录时，使用 &lt;code&gt;rm&lt;/code&gt;  命令删除它们：&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;rm -rf /path/to/directory/large_file   # 替换路径和文件名以删除大文件&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2024/02/07/8IZJhUogzwb4jA5.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;清理缓存&lt;/strong&gt;：某些系统和应用程序会创建缓存文件，这些文件可以删除以释放空间。例如，您可以清理包管理器的缓存：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;如果您的系统基于 RPM（如 Alibaba Cloud Linux），您可以使用以下命令清理缓存：&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sudo yum clean all  # 或者 sudo dnf clean all&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;这将删除缓存的软件包和软件仓库元数据。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;删除旧的或无用的虚拟环境&lt;/strong&gt;：如果您创建了虚拟环境并且不再需要它们，可以直接删除包含虚拟环境的目录。假设您的虚拟环境名为 &lt;code&gt;myenv&lt;/code&gt; ，可以使用以下命令：&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;rm -rf myenv&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;请确保只删除不再需要的环境，因为这个操作是不可逆的。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;卸载不需要的软件包&lt;/strong&gt;：如果安装了不再需要的软件包，可以将它们卸载以释放空间。&lt;/p&gt;
-&lt;p&gt;查找并卸载不再需要的软件包：&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sudo yum remove package_name   # 替换package_name为您想要卸载的包名&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;检查并清理日志文件&lt;/strong&gt;：系统日志文件有时会变得很大。检查 &lt;code&gt;/var/log&lt;/code&gt;  目录并删除旧的或不必要的日志文件。对于日志文件的清理，建议谨慎行事，因为某些日志文件对于系统运维和故障排查很重要。&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sudo du -sh /var/log/*     # 查看日志文件的大小&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo rm /var/log/old_log_file   # 删除旧的或大的日志文件，替换old_log_file为实际文件名&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;：在删除任何日志文件之前，请确保这些文件不是正在使用的或对系统运行至关重要的。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;检查用户文件&lt;/strong&gt;：检查您的家目录下的文件，并移除不再需要的内容：&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;cd ~                    # 切换到家目录&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;du -sh *               # 查看家目录下文件和目录的大小&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;rm -rf unnecessary_folder_or_file   # 删除不需要的文件或目录&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;警告&lt;/strong&gt;： &lt;code&gt;rm -rf&lt;/code&gt;  命令非常强大，它会在没有任何提示的情况下删除文件和目录。在使用之前，请确保您正在删除正确的文件或目录。如果不确定，最好备份或者单独删除文件而非整个目录。&lt;/p&gt;
-&lt;p&gt;但要请格外小心，不要删除不了解的系统文件，这可能会导致系统不稳定或不可用。如果您不确定某个文件或目录的用途，请在删除前进行查询或备份。&lt;/p&gt;
-&lt;h4 id=&#34;最后查看服务器情况&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#最后查看服务器情况&#34;&gt;#&lt;/a&gt; 最后查看服务器情况&lt;/h4&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;free -m&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2024/02/07/wZbEkGv5XIfuOep.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Mem 行（单位均为 M）：&lt;br /&gt;
-* total：内存总数&lt;br /&gt;
- * used：已使用内存数&lt;br /&gt;
- * free：空闲内存数&lt;br /&gt;
- * shared：当前废弃不用&lt;br /&gt;
- * buffers：缓存内存数（Buffer）&lt;br /&gt;
-* cached：缓存内舒数（Page）&lt;/p&gt;
-&lt;p&gt;(-/+ buffers/cache) 行：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;（-buffers/cache）: 真正使用的内存数，指的是第一部分的 used - buffers - cached&lt;/li&gt;
-&lt;li&gt;（+buffers/cache）: 可用的内存数，指的是第一部分的 free + buffers + cached&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Swap 行指交换分区。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;实际上不要看 free 少就觉得内存不足了，buffers 和 cached 都是可以在使用内存时拿来用的，应该以 (-/+ buffers/cache) 行的 free 和 used 来看。只要没发现 swap 的使用，就不用太担心，如果 swap 用了很多，那就要考虑增加物理内存了。&lt;/p&gt;
-&lt;h4 id=&#34;查看cpu使用情况&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#查看cpu使用情况&#34;&gt;#&lt;/a&gt; 查看 CPU 使用情况&lt;/h4&gt;
-&lt;p&gt;使用命令：&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;top&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;大致结果类似下图&lt;/p&gt;
-&lt;p&gt;上方文字部分的红框为总的 CPU 占用百分率，下方的表格是每个进程的 CPU 占用率，在表格第一行可以看到红框中占用率超过了 150%，这是因为服务器是多核 CPU，而该进程使用了多核。&lt;/p&gt;
-&lt;h4 id=&#34;查看显卡使用情况&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#查看显卡使用情况&#34;&gt;#&lt;/a&gt; 查看显卡使用情况&lt;/h4&gt;
-&lt;p&gt;使用命令：&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;nvidia-smi&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;大致结果类似下图：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2024/02/07/kBApnN1zP2gU4M5.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;表格中会显示显卡的一些信息，第一行是版本信息，第二行是标题栏，第三行就是具体的显卡信息了，如果有多个显卡，会有多行，每一行的信息值对应标题栏对应位置的信息。&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;* GPU：编号&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;* Fan：风扇转速，在0到100%之间变动，这里是42%&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;* Name：显卡名，这里是TITAN X&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;* Temp：显卡温度，这里是69摄氏度&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;* Perf：性能状态，从P0到P12，P0性能最大，P12最小&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;* Persistence-M：持续模式的状态开关，该模式耗能大，但是启动新GPU应用时比较快，这里是off&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;* Pwr：能耗&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;* Bus-Id：涉及GPU总线的东西&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;* Disp.A：表示GPU的显示是否初始化&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;* Memory-Usage：现存使用率，这里已经快满了&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;* GPU-Util：GPU利用率&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;* Compute M.：计算模式&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;需要注意的一点是显存占用率和 GPU 占用率是两个不一样的东西，类似于内存和 CPU，两个指标的占用率不一定是互相对应的。&lt;/p&gt;
-&lt;p&gt;在下面就是每个进程使用的 GPU 情况了。&lt;/p&gt;
-&lt;p&gt;———————————————&lt;/p&gt;
-&lt;p&gt;由于项目复盘起来直接撑爆内存条，所以下一篇学习一些 clip 和 ulip&lt;/p&gt;
-&lt;p&gt;参考文档&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d5ZjIwMTcvYXJ0aWNsZS9kZXRhaWxzLzExODY3Njc2NQ==&#34;&gt;https://blog.csdn.net/wyf2017/article/details/118676765&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuY25ibG9ncy5jb20vYnJpdGhUb1NwcmluZy9wLzEzNDk0OTY2Lmh0bWw=&#34;&gt;https://www.cnblogs.com/brithToSpring/p/13494966.html&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC80MzQzNTY5NDc=&#34;&gt;https://zhuanlan.zhihu.com/p/434356947&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0Nsb3Vkb3hfL2FydGljbGUvZGV0YWlscy83ODY1MTYzNw==&#34;&gt;https://blog.csdn.net/Cloudox_/article/details/78651637&lt;/span&gt;&lt;/p&gt;
-</content>
-        <category term="AI学习" scheme="https://jinjiaojiao.top/tags/AI%E5%AD%A6%E4%B9%A0/" />
         <updated>2024-02-07T05:26:07.000Z</updated>
     </entry>
 </feed>
