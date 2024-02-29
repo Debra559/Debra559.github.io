@@ -10,25 +10,25 @@
     <author>
       <name>Debra</name>
     </author>
-    <updated>2024-02-24T05:48:37.000Z</updated>
+    <updated>2024-02-24T05:48:37.955Z</updated>
     <category term="计算机，人工智能，产品，数学建模，算法，网页开发" />
     <entry>
         <id>https://jinjiaojiao.top/2024/02/24/%E7%AB%9E%E5%93%81%E5%88%86%E6%9E%90/</id>
-        <title>竞品分析</title>
+        <title></title>
         <link rel="alternate" href="https://jinjiaojiao.top/2024/02/24/%E7%AB%9E%E5%93%81%E5%88%86%E6%9E%90/"/>
-        <content type="html">&lt;p&gt;本文章分为 4 个部分&lt;br /&gt;
-第 1 部分 什么是竞品分析&lt;br /&gt;
-第 2 部分 为什么要做竞品分析&lt;br /&gt;
-第 3 部分 怎么做竞品分析&lt;br /&gt;
-第 4 部分 竞品分析案例&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://pic.imgdb.cn/item/65d986be9f345e8d03158c39.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;h1 id=&#34;什么是竞品分析&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#什么是竞品分析&#34;&gt;#&lt;/a&gt; 什么是竞品分析&lt;/h1&gt;
-&lt;h2 id=&#34;竞品&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#竞品&#34;&gt;#&lt;/a&gt; 竞品&lt;/h2&gt;
-&lt;p&gt;竞争对手的产品&lt;/p&gt;
-&lt;p&gt;竞品分析&lt;/p&gt;
-&lt;p&gt;对现有或者潜在竞争对手的产品进行分析&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Part1 什么是竞品分析？&lt;/strong&gt; 先来说说什么是竞品？ 竞品就是竞争产品，竞争对手的产品。 比如：微信的竞品是 QQ，钉钉，陌陌；抖音的竞品是快手，微视…. 竞品分析：顾名思义，竞品分析就是是对现有或者潜在的竞争对手的产品进行比较分析。&lt;/p&gt;
-&lt;h2 id=&#34;为什么要做竞品分析&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#为什么要做竞品分析&#34;&gt;#&lt;/a&gt; 为什么要做竞品分析&lt;/h2&gt;
+        <content type="html">&lt;h2 id=&#34;scrum敏捷开发&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#scrum敏捷开发&#34;&gt;#&lt;/a&gt; scrum 敏捷开发&lt;/h2&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC82MDc5Njg1NzA=&#34;&gt;Scrum 是什么？概念、定义、实施指南 - 知乎 (zhihu.com)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5C29758%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20240229144231902.png&#34; alt=&#34;image-20240229144231902&#34; /&gt;&lt;/p&gt;
+&lt;h1 id=&#34;竞品分析&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#竞品分析&#34;&gt;#&lt;/a&gt; 竞品分析&lt;/h1&gt;
+&lt;h2 id=&#34;概念&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#概念&#34;&gt;#&lt;/a&gt; 概念&lt;/h2&gt;
+&lt;p&gt;产品与产品之间横向的比较&lt;/p&gt;
+&lt;h2 id=&#34;作用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#作用&#34;&gt;#&lt;/a&gt; 作用&lt;/h2&gt;
+&lt;p&gt;1、知己知彼，百战不殆：&lt;br /&gt;
+2、为自身产品设计提供功能、可用性、关键技术等方面的参考；&lt;br /&gt;
+3、提高自身产品的差异化程度：&lt;br /&gt;
+4、为新立项的产品、拍脑袋想出来的，降低风险；&lt;/p&gt;
+&lt;h2 id=&#34;为什么竞品分析&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#为什么竞品分析&#34;&gt;#&lt;/a&gt; 为什么竞品分析&lt;/h2&gt;
+&lt;p&gt;答：竞品分析可以更好的了解这个行业、了解对手、了解别人都在做什么，探究别人怎么做 为什么这么做，培养产品思维，练习分析能力&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://pic1.zhimg.com/80/v2-254265c6dcad097f1973246efec88e74_1440w.webp&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;当我们对一个行业进行研究过后，觉得有前景，准备去做或者已经在做&lt;/strong&gt;，这个时候我们就需要进行竞品分析了。 准备开始做我们需要关注这些&lt;/p&gt;
 &lt;ul&gt;
@@ -42,26 +42,44 @@
 &lt;li&gt;了解客户评价，反馈，进一步了解用户需求，引导产品及服务改良或创新&lt;/li&gt;
 &lt;li&gt;关注竞品的最新动向，有助于发现新的增长点，有助于及时调整产品 / 运营策略&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;怎么做竞品分析&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#怎么做竞品分析&#34;&gt;#&lt;/a&gt; &lt;strong&gt;怎么做竞品分析&lt;/strong&gt;&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;明确分析目的&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;寻找竞品，选择竞品&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;定义分析维度&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;竞品数据收集&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;分析总结&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h2 id=&#34;竞品分析的方法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#竞品分析的方法&#34;&gt;#&lt;/a&gt; 竞品分析的方法&lt;/h2&gt;
+&lt;p&gt;◆竞品分析的目标&lt;br /&gt;
+◆竞品分析的维度&lt;br /&gt;
+◆如何获取竞争对手信息&lt;br /&gt;
+◆竞品分析方法&lt;/p&gt;
+&lt;h2 id=&#34;竞品分析目标&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#竞品分析目标&#34;&gt;#&lt;/a&gt; 竞品分析目标&lt;/h2&gt;
+&lt;p&gt;为了解决以下问题：&lt;br /&gt;
+a. 对产品要设计哪些功能不确定&lt;br /&gt;
+ b. 对产品中某个功能的修改犹豫不决&lt;br /&gt;
+ C. 对产品的商业模式有疑问&lt;br /&gt;
+ d. 对产品的 U 设计和交互设计不满意&lt;br /&gt;
+ e. 对产品的技术实现不满意&lt;/p&gt;
+&lt;h2 id=&#34;竞品分析过程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#竞品分析过程&#34;&gt;#&lt;/a&gt; 竞品分析过程&lt;/h2&gt;
+&lt;h3 id=&#34;1明确目的&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1明确目的&#34;&gt;#&lt;/a&gt; 1. 明确目的&lt;/h3&gt;
+&lt;p&gt;竞品分析前写下目标&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.imgdb.cn/item/65e022259f345e8d03666ed7.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;不要偏离主线&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://pic3.zhimg.com/80/v2-dc8c196594ef536c384479fc3b541256_1440w.webp&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;竞品分析步骤1-明确分析目的&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#竞品分析步骤1-明确分析目的&#34;&gt;#&lt;/a&gt; &lt;strong&gt;竞品分析步骤 1 – 明确分析目的&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;我们做竞品分析之前首先的确定分析目的，分析的目的不同，所关注的点和所用的方法也不同。&lt;br /&gt;
-先看看我们的产品是正准备做还是说已经做了出来？&lt;br /&gt;
-如果是正准备做，那么我们的分析目的可能是&lt;br /&gt;
- 1. 了解竞品的用户群体中与我们的目标群体重合的部分，从竞品数据中了解用户的需求&lt;br /&gt;
- 2. 了解竞品的产品模式，用户群体，运营模式等，看看我们的产品直接借（chao）鉴（xi）改造成功的竞品还是创新另做&lt;br /&gt;
-如果我们的产品已经做出来了，那么我们的分析目的可能是&lt;br /&gt;
- 1. 了解我们与竞品的区别，差距，自身优势与劣势，产品的市场份额及竞争力。&lt;br /&gt;
-2. 关注竞品的最新动向，有助于及时调整产品 / 运营策略，有助于发现新的增长点。&lt;/p&gt;
+&lt;h3 id=&#34;2找到竞品&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2找到竞品&#34;&gt;#&lt;/a&gt; 2. 找到竞品&lt;/h3&gt;
+&lt;h4 id=&#34;搜索渠道&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#搜索渠道&#34;&gt;#&lt;/a&gt; 搜索渠道&lt;/h4&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.imgdb.cn/item/65e023d29f345e8d036a036e.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;苹果手机 各种应用商店 应用宝 等等等&lt;/p&gt;
+&lt;p&gt;用所有能想到的关键词搜索&lt;/p&gt;
+&lt;p&gt;关键词搜索&lt;/p&gt;
+&lt;p&gt;相似推荐&lt;/p&gt;
+&lt;p&gt;罗列竞品&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5C29758%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20240228143231350.png&#34; alt=&#34;image-20240228143231350&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;直接搜关键词&lt;/p&gt;
+&lt;p&gt;电商软件找&lt;/p&gt;
+&lt;p&gt;不是越多越好 选合适的 做深度分析&lt;/p&gt;
+&lt;p&gt;介绍页找信息&lt;/p&gt;
+&lt;p&gt;作为客户去体验&lt;/p&gt;
+&lt;p&gt;说明书 / 操作手册&lt;/p&gt;
+&lt;p&gt;用户评论（电商 社交媒体 群聊）最在意的是什么 最不满意的是什么&lt;/p&gt;
+&lt;p&gt;平台数据&lt;/p&gt;
+&lt;p&gt;财报 / 招股书&lt;/p&gt;
+&lt;p&gt;合作方（上游的原材料提供商、下游的经销商代理商、营销投放物流运输等服务商）情况和数据&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://pic4.zhimg.com/80/v2-85c33e6657acb096dd7fe4ba7c4842f3_1440w.webp&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;竞品分析步骤2-寻找竞品选择竞品&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#竞品分析步骤2-寻找竞品选择竞品&#34;&gt;#&lt;/a&gt; &lt;strong&gt;竞品分析步骤 2 – 寻找竞品，选择竞品&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;当我们明确了分析目的之后就是寻找竞品与选择竞品。&lt;/p&gt;
 &lt;p&gt;** 如何寻找竞品？** 我们可以通过以下渠道来寻找&lt;/p&gt;
 &lt;ul&gt;
@@ -84,8 +102,15 @@
 &lt;li&gt;&lt;strong&gt;间接竞品&lt;/strong&gt; – 产品功能形态和解决方案不同，但用户群高度重合，解决的用户需求相同，目前不构成直接的利益竞争，但未来有很大的竞争风险。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;在确定分级关系之后，在竞品分析过程中，你就需要决定在核心竞品，重要竞品，一般竞品中，对哪些模块需要花多大力度去研究和分析。一般而言需要分析的是主要是重点竞品和核心竞品。&lt;/p&gt;
+&lt;h4 id=&#34;怎么选择竞品&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#怎么选择竞品&#34;&gt;#&lt;/a&gt; 怎么选择竞品&lt;/h4&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5C29758%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20240228153146969.png&#34; alt=&#34;image-20240228153146969&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;1、客观：从竞品中，圈出考察维度，得出真实情况，尽量客观公正；&lt;br /&gt;
+2、主观：挑选竞品时，主观判断很重要针对境品中的具体比较内容，也是需要主观判断的（比如交互）。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.imgdb.cn/item/65e026bd9f345e8d03704814.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;3确定维度&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3确定维度&#34;&gt;#&lt;/a&gt; 3. 确定维度&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic.imgdb.cn/item/65e0241c9f345e8d036aa0a3.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;维度的选择要和调研目标紧密结合&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://pic1.zhimg.com/80/v2-4b4a695ee68fecf7ebff8ca86ae7d7b8_1440w.webp&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;竞品分析步骤3-定义分析维度&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#竞品分析步骤3-定义分析维度&#34;&gt;#&lt;/a&gt; &lt;strong&gt;竞品分析步骤 3 – 定义分析维度&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;选择完竞品之后，我们需要定义分析维度。如果此时你不知道怎么定义，不妨先体验一款竞品，然后采取它的信息维度作为分析维度，然后再在后面的竞品数据收集时增加或者删减维度。下面给一个比较通用的分析维度模板&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;竞品基本信息
@@ -147,19 +172,53 @@
 &lt;p&gt;竞品分析.ppt&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://pic3.zhimg.com/80/v2-5656ebdbf0ffcac672d76069197a2c02_1440w.webp&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;现金贷行业分析.ppt&lt;/p&gt;
+&lt;h3 id=&#34;3信息的收集与分析&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3信息的收集与分析&#34;&gt;#&lt;/a&gt; 3. 信息的收集与分析&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5C29758%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20240229142938725.png&#34; alt=&#34;image-20240229142938725&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;excel 列出&lt;/p&gt;
+&lt;p&gt;竞品名称， 版本号，最后更新时间，下载量 / 使用量， 融资情况， 发布时间， 产品定位，核心功能，日活月活&lt;/p&gt;
+&lt;p&gt;竞品名称、版本号、最后更新时间、下载量、融资情况、发布时间、产品定位、核心功能、日活月活、优缺点&lt;br /&gt;
+一些网址：七麦数据、APPGrowing、艾瑞数据、易观千帆、百度指数&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5C29758%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20240229143017112.png&#34; alt=&#34;image-20240229143017112&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;5数据分析&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#5数据分析&#34;&gt;#&lt;/a&gt; 5. 数据分析&lt;/h3&gt;
+&lt;h4 id=&#34;a市场竞争环境&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#a市场竞争环境&#34;&gt;#&lt;/a&gt; a. 市场竞争环境&lt;/h4&gt;
+&lt;p&gt;市场现状 / 市场规模 / 用户规模 / 发展趋势&lt;/p&gt;
+&lt;p&gt;行业调研报告 / 分析方法 如 PEST&lt;/p&gt;
+&lt;h4 id=&#34;b基础数据分析&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#b基础数据分析&#34;&gt;#&lt;/a&gt; b. 基础数据分析&lt;/h4&gt;
+&lt;p&gt;同类产品 / 排名情况 / 共性 / 规律&lt;/p&gt;
+&lt;h4 id=&#34;c分类分析&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c分类分析&#34;&gt;#&lt;/a&gt; c. 分类分析&lt;/h4&gt;
+&lt;p&gt;产品模式 / 盈利方式 / 目标人群&lt;/p&gt;
+&lt;h4 id=&#34;d核心竞品选择&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#d核心竞品选择&#34;&gt;#&lt;/a&gt; d. 核心竞品选择&lt;/h4&gt;
+&lt;p&gt;根据 c 的每一类选一个：下载量多 / 大的&lt;/p&gt;
+&lt;h4 id=&#34;e核心竞品分析&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#e核心竞品分析&#34;&gt;#&lt;/a&gt; e. 核心竞品分析&lt;/h4&gt;
+&lt;p&gt;产品定位 / 目标人群 /slogan/ 发展历程 / 用户属性： 性别 / 地域 / 年龄 分布  / 盈利模式 / 产品模式 / 核心功能&lt;/p&gt;
+&lt;p&gt;产品运营数据&lt;/p&gt;
+&lt;h3 id=&#34;6总结思考&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#6总结思考&#34;&gt;#&lt;/a&gt; 6. 总结思考&lt;/h3&gt;
+&lt;p&gt;看别人的分析报告&lt;/p&gt;
+&lt;p&gt;多看行业报告；多跟商务沟通；多看新项目的招标文书、中标那家的材料；多研究友商公开的文书、官网、产品和解决方案的规划、友商公司的组织架构、业务发展等等；也需要多跟客户沟通实际需求。其实公司内网上肯定也有前人搜集的一些公开资料，可以充分利用起来。&lt;/p&gt;
+&lt;p&gt;去装客户给他们销售打个电话，他们就会好好的给你介绍他们的产品了&lt;/p&gt;
+&lt;h2 id=&#34;注意&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#注意&#34;&gt;#&lt;/a&gt; 注意&lt;/h2&gt;
+&lt;h3 id=&#34;1不要把竞品分析做成用户体验&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1不要把竞品分析做成用户体验&#34;&gt;#&lt;/a&gt; 1. 不要把竞品分析做成用户体验&lt;/h3&gt;
+&lt;p&gt;尽调的本质是帮产品经理做出决策，而不是罗列信息&lt;/p&gt;
+&lt;h3 id=&#34;2硬搬竞品的功能或策略&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2硬搬竞品的功能或策略&#34;&gt;#&lt;/a&gt; 2. 硬搬竞品的功能或策略&lt;/h3&gt;
+&lt;p&gt;不是抄袭，而是用更短的路径少走弯路获取更优的解决思路&lt;/p&gt;
+&lt;h3 id=&#34;3结论不要太空泛&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3结论不要太空泛&#34;&gt;#&lt;/a&gt; 3. 结论不要太空泛&lt;/h3&gt;
+&lt;p&gt;结论产出基于目标 用户 场景&lt;/p&gt;
+&lt;h4 id=&#34;补充&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#补充&#34;&gt;#&lt;/a&gt; 补充：&lt;/h4&gt;
+&lt;h4 id=&#34;竞品分析报告&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#竞品分析报告&#34;&gt;#&lt;/a&gt; 竞品分析报告：&lt;/h4&gt;
+&lt;p&gt;①市场竞争环境（当前市场现状？市场规模？用户规模？未来发展趋势？PEST 分析方法）、②基础数据分析（同类产品有多少、排名情况、共性规律）、③竞品分类分析（产品模式、盈利方式、目标人群等）、④核心竞品选择（选择的原因、根据上一步每一类选一个）、⑤核心竞品分析（产品定位、目标人群、解决什么需求、Slogan、发展历程、用户属性（性别分布、地域分布、年龄分布）、盈利模式、产品模式、核心功能分析（结构、流程））&lt;/p&gt;
+&lt;p&gt;关注竞品，是产品经理贯穿整个职业生涯的事情。&lt;/p&gt;
 &lt;p&gt;参考文档：&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC81NzU2NTcxMw==&#34;&gt;如何做好竞品分析？ – 每个产品经理的必经之路 - 知乎 (zhihu.com)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMUFONDExQTdNRi8/c3BtX2lkX2Zyb209MzMzLjMzNy5zZWFyY2gtY2FyZC5hbGwuY2xpY2smYW1wO3ZkX3NvdXJjZT1mYzJhNjk4OWI3ODMxYmFhYmMwNmVkYmZlNWI4NmM4MQ==&#34;&gt;https://www.bilibili.com/video/BV1AN411A7MF/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=fc2a6989b7831baabc06edbfe5b86c81&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;黑马课程（未完待续）&lt;/p&gt;
 </content>
-        <category term="产品经理" scheme="https://jinjiaojiao.top/categories/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86/" />
-        <category term="产品经理" scheme="https://jinjiaojiao.top/tags/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86/" />
-        <updated>2024-02-24T05:48:37.000Z</updated>
+        <updated>2024-02-24T05:48:37.955Z</updated>
     </entry>
     <entry>
         <id>https://jinjiaojiao.top/2024/02/24/%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90/</id>
         <title>需求分析</title>
         <link rel="alternate" href="https://jinjiaojiao.top/2024/02/24/%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90/"/>
-        <content type="html">&lt;p&gt;11111&lt;/p&gt;
-</content>
+        <content type="html"></content>
         <category term="产品经理" scheme="https://jinjiaojiao.top/categories/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86/" />
         <category term="产品经理" scheme="https://jinjiaojiao.top/tags/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86/" />
         <updated>2024-02-24T05:48:14.000Z</updated>
