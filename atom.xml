@@ -10,8 +10,297 @@
     <author>
       <name>Debra</name>
     </author>
-    <updated>2024-02-29T05:48:14.000Z</updated>
+    <updated>2024-03-14T07:31:25.000Z</updated>
     <category term="计算机，人工智能，产品，数学建模，算法，网页开发" />
+    <entry>
+        <id>https://jinjiaojiao.top/2024/03/14/docker/</id>
+        <title>docker</title>
+        <link rel="alternate" href="https://jinjiaojiao.top/2024/03/14/docker/"/>
+        <content type="html">&lt;p&gt;docker 的出现可以说让应用环境的配置、发布和测试变得异常轻松，尤其是现在大家都在讨论 coine swmp poman，&lt;/p&gt;
+&lt;p&gt;如果没有 docker 的先决知识，大家听起来可能一头雾水。这期视频呢，我会用实例向大家介绍 docker 的基本概念、安装和使用，以及如何用 docker compose 来同时管理多个容器。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;docker 的基本概念&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在学习使用 docker 之前，我们需要知道它是用来解决什么样的问题。&lt;/p&gt;
+&lt;p&gt;比如，你写了一个 web 应用，并且本地调试没有任何问题，这时候你想发给你的朋友试试看，或者部署到远程的云服务器上。那么首先你需要配置相同的软件，比如数据库、web 服务器、必要的插件、库等等。而且你还不能保证软件一定能够正常运行起来，因为别人用的可能是完全不同的操作系统。即便同样是使用 Linux，每种发行版也会有微小的区别。为了模拟完全相同的本地开发环境，我们自然会想到使用虚拟机，但是虚拟机需要模拟硬件，运行整个操作系统，不但体积臃肿，内存这样高，程序的性能也会受到影响。&lt;/p&gt;
+&lt;p&gt;这时候我们的 docker 就派上了用场。docker 在概念上与虚拟机非常类似，但却轻量很多，它不会去模拟底层的硬件，只会为每一个应用提供完全隔离的运行环境。你可以在环境中配置不同的工具软件，并且不同环境之间相互不影响。这个环境在 docker 中也被称作 container。容器。&lt;/p&gt;
+&lt;p&gt;讲到这里，我们就不得不提到 docker 中的三个重要概念，Docker file image 和 container image。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Image，镜像&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;你可以把它理解成一个虚拟机的快照，里面包含了你要部署的应用程序以及它所关联的所有库软件。通过镜像，我们可以创建许多不同的 container 容器。这里的容器就像是一台台运行起来的虚拟机，里面运行了你的应用程序，每个容器是独立运行的，它们相互之间不影响。&lt;/p&gt;
+&lt;p&gt;最后，&lt;strong&gt;Docker file&lt;/strong&gt; 就像是一个自动化脚本，它主要被用来创建我们之前讲到的镜像。这个过程就好比是我们在虚拟机中安装操作系统和软件一样，只不过是通过 docker file 这个自动化脚本完成了。&lt;/p&gt;
+&lt;p&gt;快速上手 docker 的最好方法就是亲自安装并去使用它。如果你使用的是 Windows 和 Mac，你可以在官网下载一个叫做 docker desktop 的应用，并且在 WINDOW10 以上。你可以使用 WS2，也就是 Windows 下的 Linux 子系统来运行 docker，这也是我这里使用的配置方式。&lt;/p&gt;
+&lt;p&gt;如果你使用的不是 Windows 最新的预览版本 WS2 安装可能稍微复杂一点，不过基本也是按照这里的步骤安装。&lt;/p&gt;
+&lt;p&gt;在 Linux 下面我们可以直接使用包管理工具，我们按照这里的指示一步一步执行即可。如果你使用的是 Vscode，我也非常推荐安装 docker 的扩展，&lt;/p&gt;
+&lt;p&gt;它会提供 docker file 的语法检测、代码高亮、自动补全等等。&lt;/p&gt;
+&lt;p&gt;你也可以通过菜单运行各种 docker 命令，&lt;/p&gt;
+&lt;p&gt;并且在左侧面板中看到你创建的所有镜像容器等等。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;部署应用&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;接下来我们就尝试用 docker 来部署一个应用。这里我用之前写的一个拍 on 程序来举例，这是一个非常简单的用 flask 搭建的记账工具，主要为了方便自己对日常开销的一些统计。&lt;/p&gt;
+&lt;p&gt;首先，我们在应用的根目录下创建一个 Dockertfile 文件。第一行我们需要用 from 命令指定一个基础镜像，这样可以帮我们节省许多软件安装配置的时间。&lt;/p&gt;
+&lt;p&gt;可以看到在 docker hub 上提供了许多高质量的操作系统镜像，比如 Ubuntu 、debian 、fedora、 alpine 等等。不同的操作系统提供不同的包管理工具，比如 Ubuntu 上的 apt、fedora 上的 dnf。&lt;/p&gt;
+&lt;p&gt;但是在 Docker Hub 上还有许多方便某一种语言、某种框架开发的镜像，比如 nginx、redis、node、 Python、tomcat 等等。&lt;/p&gt;
+&lt;p&gt;由于这里我做的是 Python 应用的开发，自然我会使用 Python 的镜像，这样免去了它安装步骤。&lt;/p&gt;
+&lt;p&gt;FROM python:3.8-slim-buster&lt;/p&gt;
+&lt;p&gt;这里的 Python 是官方镜像的名字冒号，后面这一串是版本号，同时也是一个标签。我们可以点击 Python 转到 docker HUB 的镜像页面，里面可以找到所有支持的标签。&lt;/p&gt;
+&lt;p&gt;比如我们这里用的是 Python3.8 版本，运行在 debian buster 的发行版上&lt;/p&gt;
+&lt;p&gt;后面的 WORKDIR 指定了之后所有 docker 命令的工作路径，注意是这个命令之后的所有 docker 命令 (working directory)，比如我们马上要讲到的 RUN COPY 等等。当然，如果这个路径不存在，Docker 会帮你自动创建，这样可以避免使用绝对路径或者手动 CD 切换路径，增加程序的可读性。&lt;/p&gt;
+&lt;p&gt;之后呢，我们可以调用 copy 命令将所有的程序拷贝到 docker 镜像中。&lt;/p&gt;
+&lt;p&gt;第一个参数代表本地文件，&amp;quot;.&amp;quot; 代表程序根目录下的所有文件，&lt;/p&gt;
+&lt;p&gt;第二个参数代表 docker 镜像中的路径，这里的 &amp;quot;.&amp;quot; 代表当前的工作路径，也就是之前指定的 APP 目录。随后的 RUN 允许我们在创建镜像时运行任意的 shell 命令。因为我们用的是 Linux 镜像，所以像 echo、pwd、 cp、rm 这些都是合法的。比如这里我用到 pip install 来安装 python 程序的所有关联。&lt;/p&gt;
+&lt;p&gt;通过以上的所有命令，我们就可以完成一个 docker 镜像的创建。在 docker file 的最后，我们会用到 CMD 来指定当 docker 容器运行起来以后要执行的命令。大家需要注意这里容器和镜像的区别，并且它和我们之前讲到的 RUN 不一样。Run 是创建镜像时候使用的，而 CMD 是运行容器的时候使用的。到这里，我们的自动化脚本 doer file 就完成了。&lt;/p&gt;
+&lt;p&gt;（terminal 运行）&lt;/p&gt;
+&lt;p&gt;接下来我们可以使用 docker build 来创建一个镜像，&lt;/p&gt;
+&lt;p&gt;docker build -t my-finance .&lt;/p&gt;
+&lt;p&gt;这里的横杠 T 指定了我们镜像的名。字最后面的 &amp;quot;.&amp;quot; 告诉 docker，应该在当前目录下寻找这个 docker file，这个不能省略。&lt;/p&gt;
+&lt;p&gt;第一次调用 docker build 会比较慢，因为 docker 会下载必要的镜像文件，然后一行行运行我们的指令，不过再次调用就会快很多，因为 docker 会缓存之前的每一个操作。这个在 docker 中也被称作分层，这里我们就不展开讨论了。&lt;/p&gt;
+&lt;p&gt;docker run -p 80:5000 -d my-finance&lt;/p&gt;
+&lt;p&gt;有了镜像以后，我们可以通过 docker run 来启动一个容器。这里需要注意的是这个 - p 参数，它会将容器上的某一个端口映射到你的本地主机上，这样你才能够从主机上访问容器中的 web 应用。前面的 80 是我们本地主机上的端口，后面是容器上的端口，这个不要搞反了。第二个参数 - d，这样容器在后台运行，这样容器的输出就不会直接显示在控制台。&lt;/p&gt;
+&lt;p&gt;如果不出意外的话，你已经可以在浏览器中访问这个 web 应用了。我们通过 docker desktop 这个图形界面可以查看应用在后台的所有输出，这个对于调试非常方便，&lt;/p&gt;
+&lt;p&gt;同时我们也可以看到当前容器的各种信息状态等等。这里的 containers 中显示了我们创建的所有容器。我们可以选择停止、重启或者删除它们还可以通过 shell 远程调试这个容器。这里是它们所对应的命令行指令。&lt;/p&gt;
+&lt;p&gt;需要注意的是，当我们删除一个容器的时候，之前所做的修改、新添加的数据会全部丢失，这就好比是我们删除一个虚拟机，里面的数据会一同销毁一样。如果我们希望保留容器中的数据，我们可以使用 docker 提供的 volume 数据卷。你可以把当做是一个在本地主机和不同容器中共享的文件夹。比如，你在容器中修改了某一个 volume 的数据，它会同时反映在其他的容器上。&lt;/p&gt;
+&lt;p&gt;docker run -dp 80：5000 -v my-finance-data:/etc/finace my-finance&lt;/p&gt;
+&lt;p&gt;我们可以通过 docker volume create 来创建一个数据卷，随后再启动容器的时候，我们可以通过 - v 参数指定将这个数据卷挂载 (mount) 到容器的哪一个路径上。可以看到我们这里将 my finance data 挂载到了 etc/finance 这个路径上，像这个路径写入的任何数据都会被永久的保存在这个数据卷中。&lt;/p&gt;
+&lt;p&gt;之前我们讲到的例子都只涉及单个容器，但在实际使用中，我们的应用程序可能会用到多个容器共同协作。比如我们可以使用一个容器来运行 web 应用，另一个容器来运行数据库系统 mysql，这样可以做到数据和应用逻辑的有效分离。比如当 web 程序宕机了，数据库依然在有效运转，这个时候我们只需要修复 web 容器即可，&lt;/p&gt;
+&lt;p&gt;而 docker compose 刚好可以帮我们做到这一点，我们可以创建一个 docker compose.yama 文件，在这个文件下，我们通过 services 来定义多个 container，比如这里我们定义一个 web 容器，它里面运行了我们的。Web 应用。然后在定义一个 DB 容器里面运行了 MYCQL 数据库系统，这里我们可以通过这两个环境变量指定数据库的名字和连接密码。同时在 DB 容器中我们还可以通过 volumes 指定一个数据卷，用来永久存放数据。&lt;/p&gt;
+&lt;p&gt;定义完毕之后，我们保存文件，使用 docker compose up 来运行所有的容器。这里的 - d 同样代表在后台运行所有容器不直接输出在控制台。与这个命令对应的，我们可以使用 docker compose down . 来停止并删除所有的容器。不过新创建的数据卷需要我们手动删除，除非我们在后面加入 volumes 参数。另外，刚刚讲到的所有操作也都可以在图形界面中完成。&lt;/p&gt;
+</content>
+        <updated>2024-03-14T07:31:25.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://jinjiaojiao.top/2024/03/13/%E5%8E%9F%E5%9E%8B%E8%AE%BE%E8%AE%A1/</id>
+        <title>原型设计</title>
+        <link rel="alternate" href="https://jinjiaojiao.top/2024/03/13/%E5%8E%9F%E5%9E%8B%E8%AE%BE%E8%AE%A1/"/>
+        <content type="html">&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5CAdministrator%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20240313144543438.png&#34; alt=&#34;image-20240313144543438&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;常用软件 / 网站：&lt;/p&gt;
+&lt;p&gt;墨刀 / Axure&lt;/p&gt;
+</content>
+        <category term="产品经理" scheme="https://jinjiaojiao.top/tags/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86/" />
+        <updated>2024-03-13T06:45:38.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://jinjiaojiao.top/2024/03/13/%E5%A5%BD%E7%94%A8%E7%BD%91%E7%AB%99%E8%AE%B0%E5%BD%95/</id>
+        <title>好用网站记录</title>
+        <link rel="alternate" href="https://jinjiaojiao.top/2024/03/13/%E5%A5%BD%E7%94%A8%E7%BD%91%E7%AB%99%E8%AE%B0%E5%BD%95/"/>
+        <content type="html">&lt;p&gt;avif-&amp;gt;jpg&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jb252ZXJ0aW8uY28vemgvYXZpZi1qcGcv&#34;&gt;https://convertio.co/zh/avif-jpg/&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;网站设计的技巧&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cud29zaGlwbS5jb20vcGQvNTY5MTQyMC5odG1s&#34;&gt;https://www.woshipm.com/pd/5691420.html&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;boardmix博思白板&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#boardmix博思白板&#34;&gt;#&lt;/a&gt; boardmix 博思白板&lt;/h2&gt;
+&lt;p&gt;下载 ppt 需要收费&lt;/p&gt;
+&lt;h2 id=&#34;pocesson&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#pocesson&#34;&gt;#&lt;/a&gt; PocessOn&lt;/h2&gt;
+&lt;h2 id=&#34;canvas可画&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#canvas可画&#34;&gt;#&lt;/a&gt; Canvas 可画&lt;/h2&gt;
+&lt;h2 id=&#34;&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#&#34;&gt;#&lt;/a&gt; &lt;/h2&gt;
+&lt;h2 id=&#34;文本gpt&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文本gpt&#34;&gt;#&lt;/a&gt; 文本 GPT&lt;/h2&gt;
+&lt;h3 id=&#34;1-kimi-chat&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-kimi-chat&#34;&gt;#&lt;/a&gt; &lt;strong&gt;1. Kimi Chat&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;笔者认为目前国内最聪明的 AI 工具&lt;/p&gt;
+&lt;p&gt;Kimi 的地址：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9raW1pLmFp&#34;&gt;https://kimi.ai&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Kimi 支持最长 20 万字的上下文聊天，支持联网打开网址、支持搜索信息、支持上传文件进行提问、支持识别图片文字。&lt;/p&gt;
+&lt;h3 id=&#34;2-chatglm&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2-chatglm&#34;&gt;#&lt;/a&gt; &lt;strong&gt;2. ChatGLM&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;国内综合实力最强的 AI 工具&lt;/p&gt;
+&lt;h3 id=&#34;3文心一言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3文心一言&#34;&gt;#&lt;/a&gt; 3. 文心一言&lt;/h3&gt;
+&lt;h3 id=&#34;4通义千问&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#4通义千问&#34;&gt;#&lt;/a&gt; 4. 通义千问&lt;/h3&gt;
+&lt;h2 id=&#34;图片类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#图片类&#34;&gt;#&lt;/a&gt; 图片类&lt;/h2&gt;
+&lt;h3 id=&#34;1-通义万相&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-通义万相&#34;&gt;#&lt;/a&gt; &lt;strong&gt;1. 通义万相&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly90b25neWkuYWxpeXVuLmNvbS93YW54aWFuZy8=&#34;&gt;https://tongyi.aliyun.com/wanxiang/&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;它支持文字生成图像、图像生成图像、图像风格模仿，目前免费试用，每人每天赠送 50 个灵感值，可以创作 50 张图片。&lt;/p&gt;
+&lt;h3 id=&#34;2dreamina&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2dreamina&#34;&gt;#&lt;/a&gt; 2.&lt;strong&gt;Dreamina&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;剪映旗下的文字生成图片工具，生成图片的质量很高，据说使用的是 Stable Diffusion 模型。&lt;/p&gt;
+&lt;p&gt;Dreamina 的地址：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuY2FwY3V0LmNuL2FpLXRvb2w=&#34;&gt;https://www.capcut.cn/ai-tool&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Dreamina 不限量使用！使用的体验跟 MidJourney 相似，支持中文提示词。&lt;/p&gt;
+&lt;p&gt;重要的是，它支持对生成的图片进行编辑、美化、局部重绘、扩展图片等！&lt;/p&gt;
+&lt;h3 id=&#34;3liblibai&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3liblibai&#34;&gt;#&lt;/a&gt; 3.LibLibAI&lt;/h3&gt;
+&lt;p&gt;国内基于 Stable Diffusion 模型开发的图片生成工具，之所以在那么多相似工具中把它放在第三个，原因在于它和原生的 Stable Diffusion WebUI 体验相似。&lt;/p&gt;
+&lt;p&gt;你可以调整模型、选择 LoRA、使用 ControlNet 等插件，甚至在最新的版本中，上线了图片生成视频功能！&lt;/p&gt;
+&lt;p&gt;LibLib 每天赠送 300 电力值，每幅图片消耗 1-N 个电力值，足够体验了。&lt;/p&gt;
+&lt;p&gt;应用场景：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. 社群私域运营场景：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;引流文案、欢迎语、朋友圈文案、社群文案、促活话题设计 &amp;amp; 文案、促活问答问题 &amp;amp; 文案、早晚安文案、氛围组话术、文案话术排版美化&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. 自媒体内容运营场景：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;小红书标题优化、小红书笔记排版、小红书笔记撰写、短视频脚本撰写、公众号文章撰写、直播脚本撰写、直播氛围组话术撰写、软文文案撰写、品牌通稿撰写、品牌通稿标题优化&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. 市场活动场景：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;市场分析调研、生成调研问卷、分析调研问卷、撰写营销策划案、撰写营销活动排期、SEO 优化、SEM 优化、信息流广告素材、线下活动策划、Rundown 审查&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4. 数据分析场景：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;数据采集、数据处理、数据清洗、数据分析维度建议、数据分析图表生成、业务数据分析、行业报告撰写、用户评价分析&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;5. 产品研发场景：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;产品原型图生成、产品 UI 图生成、PRD 撰写、流程图生成、撰写代码、代码解释、代码优化、截图生成前端代码、编程语言学习&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;6. 绘画设计场景：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;LOGO 设计、主题海报生成、产品商详图、服装模特换装、字体设计、二维码美化、老照片修复、老照片上色、配图插画生成、写真照生成、线稿上色、表情包生成、装修图生成、包装设计、建筑设计&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;7. 日常办公场景：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;制作 PPT、润色日报周报、写客户邮件、批量处理 Excel 表格、文稿合同审核、OKR 润色、绩效考核评定、招聘面试、通知撰写、公文撰写&lt;/p&gt;
+&lt;p&gt;根据您的需求，以下是几个提供高清万物互联和智能门锁图片的网站及其链接：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;视觉中国（&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL1ZDRy5DT00=&#34;&gt;VCG.COM&lt;/span&gt;）
+&lt;ul&gt;
+&lt;li&gt;网站提供了大量智能门锁的高清图片素材，用户可以下载和购买正版图片。&lt;/li&gt;
+&lt;li&gt;链接：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cudmNnLmNvbS9jcmVhdGl2ZS1pbWFnZS96aGluZW5nc3VvLw==&#34;&gt;智能锁图片素材库 - 视觉中国&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;华为官网
+&lt;ul&gt;
+&lt;li&gt;华为官网展示了华为智能门锁的产品图片，可以找到与智能门锁相关的高清图片。&lt;/li&gt;
+&lt;li&gt;链接：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jb25zdW1lci5odWF3ZWkuY29tL2NuL3NtYXJ0LWxvY2sv&#34;&gt;华为智能门锁 - 华为官网&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;千图网
+&lt;ul&gt;
+&lt;li&gt;千图网提供了多种智能门锁相关的图片素材，包括高清背景图片、设计模板等。&lt;/li&gt;
+&lt;li&gt;链接：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuNThwaWMuY29tL3R1cGlhbi96aGluZW5nbWVuc3VvLmh0bWw=&#34;&gt;智能门锁图片素材 - 千图网&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;摄图网
+&lt;ul&gt;
+&lt;li&gt;摄图网拥有关于智能门锁的正版可商用图片素材，包括高清图片、海报模板等。&lt;/li&gt;
+&lt;li&gt;链接：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly82OTlwaWMuY29tL3R1cGlhbi96aGluZW5nbWVuc3VvLmh0bWw=&#34;&gt;智能门锁图片素材 - 摄图网&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;用户调研网站&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9qaW5zaHVqdS5uZXQv&#34;&gt;https://jinshuju.net/&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzLnBpbmdjb2RlLmNvbS9hc2svMjE3MzEuaHRtbA==&#34;&gt;https://docs.pingcode.com/ask/21731.html&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;ppt + 视频录制&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aGl5YW4ud29uZGVyc2hhcmUuY24v&#34;&gt;https://zhiyan.wondershare.cn/&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;网络上有许多提供免费 PPT 模板和资源的网站，可以帮助您创建专业且吸引人的演示文稿。以下是一些值得推荐的网站：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;SlidesCarnival&lt;/strong&gt; (&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuc2xpZGVzY2Fybml2YWwuY29tLw==&#34;&gt;https://www.slidescarnival.com/&lt;/span&gt;)
+&lt;ul&gt;
+&lt;li&gt;SlidesCarnival 提供了大量免费的 PPT 模板，设计现代且多样化，适合各种演示需求。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SlideModel&lt;/strong&gt; (&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zbGlkZW1vZGVsLmNvbS8=&#34;&gt;https://slidemodel.com/&lt;/span&gt;)
+&lt;ul&gt;
+&lt;li&gt;SlideModel 提供了丰富的 PPT 模板、幻灯片和图表，用户可以根据需要进行搜索和筛选。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SlideHunter&lt;/strong&gt; (&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zbGlkZWh1bnRlci5jb20v&#34;&gt;https://slidehunter.com/&lt;/span&gt;)
+&lt;ul&gt;
+&lt;li&gt;SlideHunter 提供了各种免费的 PPT 模板和幻灯片，涵盖了商业、教育和个人用途。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Canva&lt;/strong&gt; (&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuY2FudmEuY29tLw==&#34;&gt;https://www.canva.com/&lt;/span&gt;)
+&lt;ul&gt;
+&lt;li&gt;Canva 是一个在线设计工具，提供了大量的免费 PPT 模板，用户可以直接在网站上编辑和定制。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SlideGeeks&lt;/strong&gt; (&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuc2xpZGVnZWVrcy5jb20v&#34;&gt;https://www.slidegeeks.com/&lt;/span&gt;)
+&lt;ul&gt;
+&lt;li&gt;SlideGeeks 提供了专业的 PPT 模板和幻灯片，设计简洁且专业，适合商务演示。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PoweredTemplate&lt;/strong&gt; (&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucG93ZXJlZHRlbXBsYXRlLmNvbS8=&#34;&gt;https://www.poweredtemplate.com/&lt;/span&gt;)
+&lt;ul&gt;
+&lt;li&gt;PoweredTemplate 提供了各种模板，包括 PPT 模板、图表和图形，用户可以选择免费或付费资源。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Prezi&lt;/strong&gt; (&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9wcmV6aS5jb20v&#34;&gt;https://prezi.com/&lt;/span&gt;)
+&lt;ul&gt;
+&lt;li&gt;Prezi 提供了一种不同于传统 PPT 的演示方式，它允许创建动态和交互式的演示文稿，有免费和付费账户选项。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Google Slides&lt;/strong&gt; (&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9zbGlkZXMvYWJvdXQv&#34;&gt;https://www.google.com/slides/about/&lt;/span&gt;)
+&lt;ul&gt;
+&lt;li&gt;Google Slides 是 Google Drive 的一部分，提供了一些免费的 PPT 模板，并且可以方便地与他人协作。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL1RlbXBsYXRlLm5ldA==&#34;&gt;Template.net&lt;/span&gt;&lt;/strong&gt; (&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cudGVtcGxhdGUubmV0Lw==&#34;&gt;https://www.template.net/&lt;/span&gt;)
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL1RlbXBsYXRlLm5ldA==&#34;&gt;Template.net&lt;/span&gt; 提供了各种类型的模板，包括 PPT 模板，用户可以根据自己的需求进行筛选和选择。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Microsoft Office&lt;/strong&gt; (&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly90ZW1wbGF0ZXMub2ZmaWNlLmNvbS8=&#34;&gt;https://templates.office.com/&lt;/span&gt;)
+&lt;ul&gt;
+&lt;li&gt;Microsoft Office 官方网站提供了一系列的免费 PPT 模板，这些模板设计专业，适合各种场合。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;在使用这些网站时，请注意检查每个模板的使用条款，确保在符合许可协议的前提下使用。此外，一些网站可能需要您注册账户或提供电子邮件地址才能下载模板。&lt;/p&gt;
+&lt;p&gt;复制再试一次分享&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2FpcHB0LmNu&#34;&gt;aippt.cn&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;ai 绘画软件&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYXJ0YnJlZWRlci5jb20v&#34;&gt;https://www.artbreeder.com/&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;在线抠图工具可以帮助您快速地从图片中移除背景或提取特定对象。以下是一些免费的在线抠图网站推荐：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3JlbW92ZS5iZw==&#34;&gt;remove.bg&lt;/span&gt;&lt;/strong&gt; (&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucmVtb3ZlLmJnLw==&#34;&gt;https://www.remove.bg/&lt;/span&gt;)
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3JlbW92ZS5iZw==&#34;&gt;remove.bg&lt;/span&gt; 是一个非常流行的在线抠图工具，它可以自动识别图片中的人物并移除背景。操作简单，只需上传图片，系统就会自动处理。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Clipping Magic&lt;/strong&gt; (&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jbGlwcGluZ21hZ2ljLmNvbS8=&#34;&gt;https://clippingmagic.com/&lt;/span&gt;)
+&lt;ul&gt;
+&lt;li&gt;Clipping Magic 提供了强大的在线抠图服务，可以自动或手动移除图片背景。它还允许您保存透明背景的 PNG 文件。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fotor&lt;/strong&gt; (&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuZm90b3IuY29tLw==&#34;&gt;https://www.fotor.com/&lt;/span&gt;)
+&lt;ul&gt;
+&lt;li&gt;Fotor 是一个在线照片编辑工具，提供了简单的抠图功能。它允许用户通过简单的画笔工具来选择和删除背景。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Canva&lt;/strong&gt; (&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuY2FudmEuY29tLw==&#34;&gt;https://www.canva.com/&lt;/span&gt;)
+&lt;ul&gt;
+&lt;li&gt;Canva 是一个图形设计平台，它提供了一个简单的功能来移除图片背景。虽然 Canva 主要是用于设计，但它的抠图工具对于基本的背景移除非常有效。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PhotoScissors&lt;/strong&gt; (&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9waG90b3NjaXNzb3JzLmNvbS8=&#34;&gt;https://photoscissors.com/&lt;/span&gt;)
+&lt;ul&gt;
+&lt;li&gt;PhotoScissors 提供了一个用户友好的界面，可以自动检测和移除图片背景。它还提供了一些基本的编辑选项。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;BG Eraser&lt;/strong&gt; (&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmctZXJhc2VyLmNvbS8=&#34;&gt;https://www.bg-eraser.com/&lt;/span&gt;)
+&lt;ul&gt;
+&lt;li&gt;BG Eraser 专注于移除图片背景，提供了一个简单的拖放界面和一些基本的编辑工具。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lunapic&lt;/strong&gt; (&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubHVuYXBpYy5jb20vZWRpdG9yLw==&#34;&gt;https://www.lunapic.com/editor/&lt;/span&gt;)
+&lt;ul&gt;
+&lt;li&gt;Lunapic 是一个多功能的在线图像编辑器，其中包括一个简单的抠图工具，允许用户使用魔术棒或套索工具来选择和移除背景。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PicMonkey&lt;/strong&gt; (&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucGljbW9ua2V5LmNvbS8=&#34;&gt;https://www.picmonkey.com/&lt;/span&gt;)
+&lt;ul&gt;
+&lt;li&gt;PicMonkey 提供了一系列图像编辑工具，包括抠图功能。它的背景移除工具可以帮助您快速去除或更换图片背景。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;使用这些在线工具时，请注意它们的使用条款和隐私政策，确保您的图片不包含敏感或私人信息。此外，一些网站可能提供有限的免费使用，而更高级的功能或更频繁的使用可能需要付费订阅。&lt;/p&gt;
+&lt;p&gt;PPT：&lt;/p&gt;
+&lt;p&gt;稿定设计&lt;/p&gt;
+&lt;p&gt;islide&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;第一 PPT&lt;/strong&gt; (&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3d3dy4xcHB0LmNvbS8=&#34;&gt;http://www.1ppt.com/&lt;/span&gt;)
+&lt;ul&gt;
+&lt;li&gt;第一 PPT 网站拥有丰富的 PPT 资源库，包括模板、背景、图表等，用户可以免费下载并使用这些资源。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Canva&lt;/strong&gt; (&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuY2FudmEuY29tL3poX2NuLw==&#34;&gt;https://www.canva.com/zh_cn/&lt;/span&gt;)
+&lt;ul&gt;
+&lt;li&gt;Canva 是一个在线设计工具，提供了许多免费的 PPT 模板，用户可以直接在网站上编辑和定制。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;请注意，虽然这些网站提供免费资源，但在使用时仍需遵守各自的版权声明和使用条款。在使用模板时，建议检查模板的授权情况，确保在合法的范围内使用。&lt;/p&gt;
+&lt;p&gt;复制再试一次分享&lt;/p&gt;
+</content>
+        <updated>2024-03-13T06:32:31.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://jinjiaojiao.top/2024/03/05/%E4%BA%A7%E5%93%81%E8%AE%BE%E8%AE%A1/</id>
+        <title>产品设计</title>
+        <link rel="alternate" href="https://jinjiaojiao.top/2024/03/05/%E4%BA%A7%E5%93%81%E8%AE%BE%E8%AE%A1/"/>
+        <content type="html">&lt;h1 id=&#34;原型设计&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#原型设计&#34;&gt;#&lt;/a&gt; 原型设计&lt;/h1&gt;
+&lt;h2 id=&#34;figma&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#figma&#34;&gt;#&lt;/a&gt; Figma&lt;/h2&gt;
+&lt;p&gt;越来越主流产品设计软件&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;全平台使用&lt;/li&gt;
+&lt;li&gt;云端文件&lt;/li&gt;
+&lt;li&gt;历史版本&lt;/li&gt;
+&lt;li&gt;共同协作（链接）&lt;/li&gt;
+&lt;li&gt;实时操作&lt;/li&gt;
+&lt;li&gt;团队沟通&lt;/li&gt;
+&lt;li&gt;组件和共享样式&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;ui界面&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ui界面&#34;&gt;#&lt;/a&gt; UI 界面&lt;/h1&gt;
+</content>
+        <category term="产品经理" scheme="https://jinjiaojiao.top/categories/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86/" />
+        <category term="产品经理" scheme="https://jinjiaojiao.top/tags/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86/" />
+        <updated>2024-03-05T01:29:58.000Z</updated>
+    </entry>
     <entry>
         <id>https://jinjiaojiao.top/2024/02/29/%E7%AB%9E%E5%93%81%E5%88%86%E6%9E%90/</id>
         <title>竞品分析</title>
@@ -220,7 +509,40 @@ a. 对产品要设计哪些功能不确定&lt;br /&gt;
         <id>https://jinjiaojiao.top/2024/02/24/%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90/</id>
         <title>需求分析</title>
         <link rel="alternate" href="https://jinjiaojiao.top/2024/02/24/%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90/"/>
-        <content type="html"></content>
+        <content type="html">&lt;p&gt;&lt;img data-src=&#34;https://pic.imgdb.cn/item/65e031f89f345e8d038b326b.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;目录：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;一、需求分析的基本认知&lt;br /&gt;
+二、需求分析的步骤&lt;br /&gt;
+三、需求分析的方法&lt;br /&gt;
+四、需求分析的产出&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;一-需求分析的基本认知&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-需求分析的基本认知&#34;&gt;#&lt;/a&gt; 一、需求分析的基本认知&lt;/h2&gt;
+&lt;h3 id=&#34;1-什么是需求分析&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-什么是需求分析&#34;&gt;#&lt;/a&gt; 1、什么是需求分析&lt;/h3&gt;
+&lt;p&gt;需求分析是指，产品经理从用户 / 业务的需求出发，确定用户 / 业务的目的和目标，&lt;strong&gt;将用户 / 业务需求转化为产品需求&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;简单理解就是判断一个需求值不值得做，要做成什么样子，要怎么来做才能实现产品目标以及价值最大化。&lt;/p&gt;
+&lt;h3 id=&#34;2-核心要素&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2-核心要素&#34;&gt;#&lt;/a&gt; 2、核心要素&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;用户的真实目的&lt;/li&gt;
+&lt;li&gt;产品的解决方案&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-需求分析的原则&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3-需求分析的原则&#34;&gt;#&lt;/a&gt; 3、需求分析的原则&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;透过现象看本质&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;4-什么样的的需求分析是好的需求分析&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#4-什么样的的需求分析是好的需求分析&#34;&gt;#&lt;/a&gt; 4、什么样的的需求分析是好的需求分析&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;价值导向而非目标导向&lt;/li&gt;
+&lt;li&gt;搞清楚 “去角色化的个体特征” 以及 “集体人格特征”&lt;/li&gt;
+&lt;li&gt;明确痛点、痒点以及爽点均是产品机会&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;二-需求分析的步骤&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#二-需求分析的步骤&#34;&gt;#&lt;/a&gt; 二、需求分析的步骤&lt;/h2&gt;
+&lt;h3 id=&#34;信息收集阶段&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#信息收集阶段&#34;&gt;#&lt;/a&gt; 信息收集阶段&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;1、需求转化&lt;/strong&gt;&lt;br /&gt;
+将收集来的需求整理到需求分析记录表里面，确定需求的基本属性&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://pic3.zhimg.com/80/v2-2e226ac8653bd190563d767aebb92df2_1440w.webp&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2、确定基本属性&lt;/strong&gt;&lt;br /&gt;
+明确需求是属于哪个类型，如新增功能、功能改进、体验提升、Bug 修复、内部需求……&lt;br /&gt;
+ 再确认需求的层级，使用 KANO 模型进行分析，确认是必要型需求、还是期望型需求、还是兴奋型需求、无差别需求还是逆向需求。&lt;/p&gt;
+</content>
         <category term="产品经理" scheme="https://jinjiaojiao.top/categories/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86/" />
         <category term="产品经理" scheme="https://jinjiaojiao.top/tags/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86/" />
         <updated>2024-02-24T05:48:14.000Z</updated>
